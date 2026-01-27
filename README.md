@@ -47,6 +47,7 @@ tushare-mcp-scrape --base-url https://tushare.pro/document/2 --output data/tusha
 如果需要登录态（可选），先用 Playwright 导出 storage state，然后：
 
 ```bash
+python scripts/capture_storage_state.py
 tushare-mcp-scrape --storage-state storage_state.json
 ```
 
