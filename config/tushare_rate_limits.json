@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "source_title": "积分与频次权限对应表",
+    "source_url": "https://tushare.pro/document/1?doc_id=290",
+    "synced_on": "2026-01-27"
+  },
+  "tiers": [
+    {
+      "min_points": 120,
+      "per_minute": 50,
+      "min_interval_seconds": 1.2,
+      "daily_total_limit": 8000,
+      "daily_total_limit_scope": "account",
+      "max_rows": 100,
+      "notes": "120积分仅日线等基础数据可用；单日总量8000次。"
+    },
+    {
+      "min_points": 2000,
+      "per_minute": 200,
+      "min_interval_seconds": 0.3,
+      "daily_total_limit": 100000,
+      "daily_total_limit_scope": "per_api",
+      "max_rows": 100,
+      "notes": "2000积分以上常规数据按各接口积分要求；单日总量10万次（按接口）。"
+    },
+    {
+      "min_points": 5000,
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "daily_total_limit": null,
+      "daily_total_limit_scope": null,
+      "max_rows": 100,
+      "notes": "5000积分以上常规数据无总量上限。"
+    },
+    {
+      "min_points": 10000,
+      "per_minute": 1000,
+      "min_interval_seconds": 0.06,
+      "special_data_per_minute": 300,
+      "special_data_min_interval_seconds": 0.2,
+      "daily_total_limit": null,
+      "daily_total_limit_scope": null,
+      "max_rows": 100,
+      "notes": "10000积分以上常规数据无总量限制；特色数据300次/分钟。"
+    },
+    {
+      "min_points": 15000,
+      "per_minute": 1000,
+      "min_interval_seconds": 0.06,
+      "daily_total_limit": null,
+      "daily_total_limit_scope": null,
+      "max_rows": 100,
+      "notes": "15000积分以上特色数据无总量限制。"
+    }
+  ],
+  "independent_permissions": [
+    {
+      "name": "股票历史分钟",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": 8000,
+      "notes": "历史分钟，频次500/分钟，每次8000行。"
+    },
+    {
+      "name": "股票实时分钟",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_stocks": 300,
+      "notes": "实时分钟，每次可同时请求300只股票。"
+    },
+    {
+      "name": "股票实时日线",
+      "per_minute": 50,
+      "min_interval_seconds": 1.2,
+      "per_call_rows": null,
+      "notes": "每次可提取全市场。"
+    },
+    {
+      "name": "指数实时日线",
+      "per_minute": 50,
+      "min_interval_seconds": 1.2,
+      "per_call_rows": null,
+      "notes": "每次可提取全市场。"
+    },
+    {
+      "name": "ETF实时日线",
+      "per_minute": 50,
+      "min_interval_seconds": 1.2,
+      "per_call_rows": null,
+      "notes": "每次可提取全市场。"
+    },
+    {
+      "name": "期货历史分钟",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": 8000,
+      "notes": "历史分钟，频次500/分钟，每次8000行。"
+    },
+    {
+      "name": "期货实时分钟",
+      "per_minute": null,
+      "min_interval_seconds": null,
+      "per_call_rows": null,
+      "notes": "支持SDK/HTTP/WebSocket，文档未给出频次。"
+    },
+    {
+      "name": "期权历史分钟",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": 8000,
+      "notes": "历史分钟，频次500/分钟，每次8000行。"
+    },
+    {
+      "name": "申万分钟",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": 8000,
+      "notes": "分钟数据，频次500/分钟，每次8000行。"
+    },
+    {
+      "name": "港股日线",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": 6000,
+      "notes": "每次6000行。"
+    },
+    {
+      "name": "港股分钟",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": 8000,
+      "notes": "每次8000行。"
+    },
+    {
+      "name": "港股财报",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": 10000,
+      "notes": "每次10000行。"
+    },
+    {
+      "name": "港股实时日线",
+      "per_minute": 50,
+      "min_interval_seconds": 1.2,
+      "per_call_rows": null,
+      "notes": "每次可提取全市场。"
+    },
+    {
+      "name": "美股日线",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": 8000,
+      "notes": "每次8000行。"
+    },
+    {
+      "name": "美股财报",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": 10000,
+      "notes": "每次10000行。"
+    },
+    {
+      "name": "新闻资讯",
+      "per_minute": 400,
+      "min_interval_seconds": 0.15,
+      "per_call_rows": null,
+      "notes": "每分钟400次。"
+    },
+    {
+      "name": "公告信息",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": null,
+      "notes": "每分钟500次。"
+    },
+    {
+      "name": "可转债价格变动",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": null,
+      "notes": "每分钟500次。"
+    },
+    {
+      "name": "盘前股本",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": null,
+      "notes": "每分钟500次。"
+    },
+    {
+      "name": "上证e互动、深证互动易",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": null,
+      "notes": "每分钟500次。"
+    },
+    {
+      "name": "集合竞价",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": null,
+      "notes": "每分钟500次。"
+    },
+    {
+      "name": "政策法规库",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": null,
+      "notes": "每分钟500次。"
+    },
+    {
+      "name": "券商研报库",
+      "per_minute": 500,
+      "min_interval_seconds": 0.12,
+      "per_call_rows": null,
+      "notes": "每分钟500次。"
+    }
+  ]
+}
+

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tusharemcp"
+version = "0.1.0"
+description = "Metadata-driven universal Tushare MCP server (FastMCP) + offline doc scraper (Playwright)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "TushareMCP" }]
+dependencies = [
+  "fastmcp>=2.14.0",
+  "pandas>=2.0.0",
+  "tushare>=1.4.0",
+]
+
+[project.optional-dependencies]
+scrape = [
+  "playwright>=1.40.0",
+  "beautifulsoup4>=4.12.0",
+  "lxml>=5.0.0",
+  "requests>=2.31.0",
+]
+
+[project.scripts]
+tushare-mcp-server = "tusharemcp.server:cli_main"
+tushare-mcp-scrape = "tusharemcp.scrape:cli_main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tushare": {
+      "command": "tushare-mcp-server",
+      "args": ["--specs", "data/tushare_api_specs.json"]
+    }
+  }
+}
