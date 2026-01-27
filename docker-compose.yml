@@ -1,0 +1,20 @@
+services:
+  tushare-mcp:
+    build: .
+    image: tushare-mcp:latest
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    command: ["tushare-mcp-server", "--specs", "data/tushare_api_specs.json"]
+    stdin_open: true
+    tty: false
+
+  tushare-scraper:
+    build:
+      context: .
+      dockerfile: Dockerfile.scraper
+    image: tushare-mcp-scraper:latest
+    volumes:
+      - ./data:/app/data
+    command: ["tushare-mcp-scrape", "--output", "data/tushare_api_specs.json"]

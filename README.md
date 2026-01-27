@@ -57,6 +57,51 @@ tushare-mcp-scrape --storage-state storage_state.json
 tushare-mcp-server --specs data/tushare_api_specs.json
 ```
 
+## Docker 运行
+
+### 方式 A：直接 Docker
+
+```bash
+docker build -t tushare-mcp .
+docker run --rm -i --env-file .env -v "$PWD/data:/app/data" tushare-mcp
+```
+
+> MCP 使用 stdio，务必加 `-i` 保持标准输入。
+
+### 方式 B：Docker Compose
+
+```bash
+docker compose up --build
+```
+
+MCP 客户端配置示例（通过 docker）：
+
+```json
+{
+  "mcpServers": {
+    "tushare": {
+      "command": "docker",
+      "args": ["run", "--rm", "-i", "--env-file", ".env", "-v", "./data:/app/data", "tushare-mcp"]
+    }
+  }
+}
+```
+
+### Scraper（Docker）
+
+构建并运行离线文档爬虫（生成 `data/tushare_api_specs.json`）：
+
+```bash
+docker build -f Dockerfile.scraper -t tushare-mcp-scraper .
+docker run --rm -v "$PWD/data:/app/data" tushare-mcp-scraper
+```
+
+使用 Compose：
+
+```bash
+docker compose run --rm tushare-scraper
+```
+
 该 Server 仅暴露 2 个核心工具：
 
 - `search_api_docs(keyword, limit=10)`：查字典（模糊搜索 + 返回参数/字段）
