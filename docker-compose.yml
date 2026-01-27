@@ -2,6 +2,7 @@ services:
   tushare-mcp:
     build: .
     image: tushare-mcp:latest
+    restart: unless-stopped
     env_file:
       - .env
     volumes:

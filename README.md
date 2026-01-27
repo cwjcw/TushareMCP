@@ -1,6 +1,6 @@
 # TushareMCP
 
-一个面向 BI 工程师 / 量化开发者的「元数据驱动（Metadata-Driven）」Tushare 万能 MCP 工具：
+一个面向量化开发者的「元数据驱动（Metadata-Driven）」Tushare 万能 MCP 工具：
 
 - 离线层：用 Playwright 抓取 Tushare 文档，生成 `tushare_api_specs.json`
 - 服务层：FastMCP + 反射转发器（`getattr(pro, api_name)(**params)`）
@@ -152,3 +152,9 @@ Server 启动时会按以下优先级确定限流参数：
 该文件包含：
 - `tiers`：不同积分的频次限制（含 `min_interval_seconds`）
 - `independent_permissions`：独立权限项的“每次返回行数/每次可请求股票数”，避免混淆常规接口
+
+### storage_state.json（登录态）
+
+`storage_state.json` 是 Playwright 保存的登录态快照（cookies / localStorage），用于抓取需要登录权限的文档。
+- **不要提交到 Git**（已在 `.gitignore` 中忽略）
+- 如果需要在 Docker 中使用，可通过挂载文件传入
