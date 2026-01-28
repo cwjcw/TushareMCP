@@ -102,6 +102,46 @@ docker run --rm -v "$PWD/data:/app/data" tushare-mcp-scraper
 docker compose run --rm tushare-scraper
 ```
 
+### 代码更新后如何同步到容器
+
+修改代码后需要重建镜像并重启容器：
+
+```bash
+docker compose up --build -d tushare-mcp
+```
+
+或分两步：
+
+```bash
+docker compose build tushare-mcp
+docker compose up -d tushare-mcp
+```
+
+## HTTP / WS 网关
+
+如果需要远程调用 MCP，可启动 HTTP/WS 网关（默认端口 `8787`）。
+
+### 本机启动
+
+```bash
+tushare-mcp-gateway --specs data/tushare_api_specs.json --host 0.0.0.0 --port 8787
+```
+
+### Docker 启动
+
+```bash
+docker compose up -d tushare-gateway
+```
+
+### HTTP 端点
+
+- MCP HTTP 端点：`/mcp`（streamable-http）
+- 健康检查：`/healthz`
+
+### WebSocket 端点（MCP 标准）
+
+`/ws` 使用 MCP WebSocket 传输（子协议 `mcp`），可用于支持 WS 的 MCP 客户端直连。
+
 该 Server 仅暴露 2 个核心工具：
 
 - `search_api_docs(keyword, limit=10)`：查字典（模糊搜索 + 返回参数/字段）

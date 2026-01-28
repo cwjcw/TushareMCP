@@ -27,10 +27,10 @@ scrape = [
 [project.scripts]
 tushare-mcp-server = "tusharemcp.server:cli_main"
 tushare-mcp-scrape = "tusharemcp.scrape:cli_main"
+tushare-mcp-gateway = "tusharemcp.gateway:cli_main"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
