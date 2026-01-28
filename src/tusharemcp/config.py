@@ -8,7 +8,7 @@ from typing import Any
 
 @dataclass(frozen=True)
 class RateLimitConfig:
-    max_rows: int
+    max_rows: int | None
     min_interval_seconds: float
     source: str
 
@@ -67,16 +67,20 @@ def resolve_rate_limits(
             if points >= min_points:
                 selected = tier
         if selected:
+            max_rows_value = selected.get("max_rows", default_max_rows)
+            max_rows_value = None if max_rows_value is None else int(max_rows_value)
             return RateLimitConfig(
-                max_rows=int(selected.get("max_rows", default_max_rows)),
+                max_rows=max_rows_value,
                 min_interval_seconds=float(selected.get("min_interval_seconds", default_min_interval_seconds)),
                 source=f"limits:{limits_path}",
             )
 
         default = limits.get("default") or {}
         if default:
+            max_rows_value = default.get("max_rows", default_max_rows)
+            max_rows_value = None if max_rows_value is None else int(max_rows_value)
             return RateLimitConfig(
-                max_rows=int(default.get("max_rows", default_max_rows)),
+                max_rows=max_rows_value,
                 min_interval_seconds=float(default.get("min_interval_seconds", default_min_interval_seconds)),
                 source=f"limits:{limits_path}",
             )

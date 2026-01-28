@@ -31,7 +31,7 @@ def _env_int(name: str, default: int) -> int:
 def create_mcp_app(
     *,
     specs_path: str | Path | None,
-    max_rows: int = 100,
+    max_rows: int | None = None,
     min_interval_seconds: float = 0.35,
 ) -> FastMCP:
     store = SpecStore.load(specs_path)
@@ -90,8 +90,14 @@ def create_mcp_app(
 
         if isinstance(result, pd.DataFrame):
             total_rows = int(result.shape[0])
-            truncated = total_rows > max_rows
-            df = result.head(max_rows) if truncated else result
+            if max_rows is None or max_rows <= 0:
+                truncated = False
+                df = result
+                max_rows_used = None
+            else:
+                truncated = total_rows > max_rows
+                df = result.head(max_rows) if truncated else result
+                max_rows_used = max_rows
             data = df.where(pd.notnull(df), None).to_dict(orient="records")
             return {
                 "ok": True,
@@ -101,7 +107,7 @@ def create_mcp_app(
                     "total_rows": total_rows,
                     "returned_rows": len(data),
                     "truncated": truncated,
-                    "max_rows": max_rows,
+                    "max_rows": max_rows_used,
                     "note": f"Total: {total_rows} rows, Truncated to: {max_rows}" if truncated else f"Total: {total_rows} rows",
                     "columns": list(df.columns),
                     "unknown_params": validation["unknown_params"],
@@ -148,7 +154,7 @@ def cli_main() -> None:
         "--max-rows",
         type=int,
         default=None,
-        help="Truncate DataFrame results to this many rows.",
+        help="Truncate DataFrame results to this many rows (<=0 or null means no limit).",
     )
     parser.add_argument(
         "--min-interval-seconds",
@@ -164,7 +170,7 @@ def cli_main() -> None:
         else str(args.min_interval_seconds),
         points_env=os.environ.get("TUSHARE_POINTS") if args.points is None else str(args.points),
         limits_path=args.limits_path,
-        default_max_rows=100,
-        default_min_interval_seconds=0.35,
+        default_max_rows=None,
+        default_min_interval_seconds=0.06,
     )
     asyncio.run(_run_stdio(args.specs, limits.max_rows, limits.min_interval_seconds))

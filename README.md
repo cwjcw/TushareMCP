@@ -153,8 +153,8 @@ docker compose up -d tushare-gateway
 
 ## 4) 风控参数（可选）
 
-- `TUSHARE_MCP_MAX_ROWS`：返回行数截断（默认 100）
-- `TUSHARE_MCP_MIN_INTERVAL_SECONDS`：最小请求间隔（默认 0.35s）
+- `TUSHARE_MCP_MAX_ROWS`：返回行数截断（默认无限制；<=0 或不设表示不截断）
+- `TUSHARE_MCP_MIN_INTERVAL_SECONDS`：最小请求间隔（默认 0.06s，对应 10000 积分档位）
 - `TUSHARE_MCP_SPECS_PATH`：默认 specs 路径（默认 `data/tushare_api_specs.json`）
 - `TUSHARE_POINTS`：你的积分（可选，用于自动匹配限流档位）
 - `TUSHARE_MCP_LIMITS_PATH`：限流档位映射文件（默认 `config/tushare_rate_limits.json`）
@@ -173,7 +173,7 @@ Server 启动时会按以下优先级确定限流参数：
 
 1) 显式参数：`--max-rows` 与 `--min-interval-seconds`（或同名环境变量）
 2) 档位匹配：`TUSHARE_POINTS` + `config/tushare_rate_limits.json`
-3) 默认值：`max_rows=100`、`min_interval_seconds=0.35`
+3) 默认值：`max_rows=无限制`、`min_interval_seconds=0.06`
 
 > `min_interval_seconds = 60 / 每分钟频次`，已在档位文件中预计算。
 

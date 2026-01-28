@@ -11,7 +11,7 @@
       "min_interval_seconds": 1.2,
       "daily_total_limit": 8000,
       "daily_total_limit_scope": "account",
-      "max_rows": 100,
+      "max_rows": null,
       "notes": "120积分仅日线等基础数据可用；单日总量8000次。"
     },
     {
@@ -20,7 +20,7 @@
       "min_interval_seconds": 0.3,
       "daily_total_limit": 100000,
       "daily_total_limit_scope": "per_api",
-      "max_rows": 100,
+      "max_rows": null,
       "notes": "2000积分以上常规数据按各接口积分要求；单日总量10万次（按接口）。"
     },
     {
@@ -29,7 +29,7 @@
       "min_interval_seconds": 0.12,
       "daily_total_limit": null,
       "daily_total_limit_scope": null,
-      "max_rows": 100,
+      "max_rows": null,
       "notes": "5000积分以上常规数据无总量上限。"
     },
     {
@@ -40,7 +40,7 @@
       "special_data_min_interval_seconds": 0.2,
       "daily_total_limit": null,
       "daily_total_limit_scope": null,
-      "max_rows": 100,
+      "max_rows": null,
       "notes": "10000积分以上常规数据无总量限制；特色数据300次/分钟。"
     },
     {
@@ -49,7 +49,7 @@
       "min_interval_seconds": 0.06,
       "daily_total_limit": null,
       "daily_total_limit_scope": null,
-      "max_rows": 100,
+      "max_rows": null,
       "notes": "15000积分以上特色数据无总量限制。"
     }
   ],
@@ -217,4 +217,3 @@
     }
   ]
 }
-

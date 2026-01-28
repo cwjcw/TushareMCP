@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": 1,
-    "generated_at": "2026-01-27T19:26:44.720670+00:00",
+    "generated_at": "2026-01-28T12:56:16.439586+00:00",
     "base_url": "https://tushare.pro/document/2",
-    "count": 216
+    "count": 223
   },
   "apis": {
     "stock_basic": {
@@ -131,7 +131,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_premarket": {
       "name": "stk_premarket",
@@ -200,7 +205,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "trade_cal": {
       "name": "trade_cal",
@@ -254,7 +264,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stock_st": {
       "name": "stock_st",
@@ -313,7 +328,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 3000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stock_hsgt": {
       "name": "stock_hsgt",
@@ -376,7 +396,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 3000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "namechange": {
       "name": "namechange",
@@ -436,7 +461,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stock_company": {
       "name": "stock_company",
@@ -552,7 +582,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_managers": {
       "name": "stk_managers",
@@ -646,7 +681,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_rewards": {
       "name": "stk_rewards",
@@ -707,7 +747,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "bse_mapping": {
       "name": "bse_mapping",
@@ -753,7 +798,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "new_share": {
       "name": "new_share",
@@ -839,7 +889,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "bak_basic": {
       "name": "bak_basic",
@@ -985,7 +1040,12 @@
             "type": "integer"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "daily": {
       "name": "daily",
@@ -1074,7 +1134,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "rt_k": {
       "name": "rt_k",
@@ -1172,7 +1237,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "stk_mins": {
       "name": "stk_mins",
@@ -1248,7 +1318,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "rt_min": {
       "name": "rt_min",
@@ -1315,7 +1390,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "weekly": {
       "name": "weekly",
@@ -1404,7 +1484,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "monthly": {
       "name": "monthly",
@@ -1493,7 +1578,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_weekly_monthly": {
       "name": "stk_weekly_monthly",
@@ -1596,7 +1686,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_week_month_adj": {
       "name": "stk_week_month_adj",
@@ -1633,7 +1728,12 @@
       "output": {
         "type": "array",
         "fields": []
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "adj_factor": {
       "name": "adj_factor",
@@ -1682,7 +1782,406 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
+    },
+    "realtime_quote": {
+      "name": "realtime_quote",
+      "title": "实时盘口TICK快照(爬虫版)",
+      "description": "接口：realtime_quote，A股实时行情 描述：本接口是tushare org版实时接口的顺延，数据来自网络，且不进入tushare服务器，属于爬虫接口，请将tushare升级到1.3.3版本以上。 权限：0积分完全开放，但需要有tushare账号，如果没有账号请先 注册 。 说明：由于该接口是纯爬虫程序，跟tushare服务器无关，因此tushare不对数据内容和质量负责。数据主要用于研究和学习使用，如做商业目的，请自行解决合规问题。",
+      "url": "https://tushare.pro/document/2?doc_id=315",
+      "doc_id": "315",
+      "input": {
+        "type": "object",
+        "properties": {
+          "ts_code": {
+            "type": "string",
+            "description": "股票代码，需按tushare 股票和指数标准 代码输入，比如：000001.SZ表示平安银行，000001.SH表示上证指数"
+          },
+          "src": {
+            "type": "string",
+            "description": "数据源 （sina-新浪 dc-东方财富，默认sina）"
+          }
+        },
+        "required": []
+      },
+      "output": {
+        "type": "array",
+        "fields": [
+          {
+            "name": "name",
+            "description": "股票名称",
+            "type": "string"
+          },
+          {
+            "name": "ts_code",
+            "description": "股票代码",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "description": "交易日期",
+            "type": "string"
+          },
+          {
+            "name": "time",
+            "description": "交易时间",
+            "type": "string"
+          },
+          {
+            "name": "open",
+            "description": "开盘价",
+            "type": "number"
+          },
+          {
+            "name": "pre_close",
+            "description": "昨收价",
+            "type": "number"
+          },
+          {
+            "name": "price",
+            "description": "现价",
+            "type": "number"
+          },
+          {
+            "name": "high",
+            "description": "今日最高价",
+            "type": "number"
+          },
+          {
+            "name": "low",
+            "description": "今日最低价",
+            "type": "number"
+          },
+          {
+            "name": "bid",
+            "description": "竞买价，即“买一”报价（元）",
+            "type": "number"
+          },
+          {
+            "name": "ask",
+            "description": "竞卖价，即“卖一”报价（元）",
+            "type": "number"
+          },
+          {
+            "name": "volume",
+            "description": "成交量（src=sina时是股，src=dc时是手）",
+            "type": "integer"
+          },
+          {
+            "name": "amount",
+            "description": "成交金额（元 CNY）",
+            "type": "number"
+          },
+          {
+            "name": "b1_v",
+            "description": "委买一（量，单位：手，下同）",
+            "type": "number"
+          },
+          {
+            "name": "b1_p",
+            "description": "委买一（价，单位：元，下同）",
+            "type": "number"
+          },
+          {
+            "name": "b2_v",
+            "description": "委买二（量）",
+            "type": "number"
+          },
+          {
+            "name": "b2_p",
+            "description": "委买二（价）",
+            "type": "number"
+          },
+          {
+            "name": "b3_v",
+            "description": "委买三（量）",
+            "type": "number"
+          },
+          {
+            "name": "b3_p",
+            "description": "委买三（价）",
+            "type": "number"
+          },
+          {
+            "name": "b4_v",
+            "description": "委买四（量）",
+            "type": "number"
+          },
+          {
+            "name": "b4_p",
+            "description": "委买四（价）",
+            "type": "number"
+          },
+          {
+            "name": "b5_v",
+            "description": "委买五（量）",
+            "type": "number"
+          },
+          {
+            "name": "b5_p",
+            "description": "委买五（价）",
+            "type": "number"
+          },
+          {
+            "name": "a1_v",
+            "description": "委卖一（量，单位：手，下同）",
+            "type": "number"
+          },
+          {
+            "name": "a1_p",
+            "description": "委卖一（价，单位：元，下同）",
+            "type": "number"
+          },
+          {
+            "name": "a2_v",
+            "description": "委卖二（量）",
+            "type": "number"
+          },
+          {
+            "name": "a2_p",
+            "description": "委卖二（价）",
+            "type": "number"
+          },
+          {
+            "name": "a3_v",
+            "description": "委卖三（量）",
+            "type": "number"
+          },
+          {
+            "name": "a3_p",
+            "description": "委卖三（价）",
+            "type": "number"
+          },
+          {
+            "name": "a4_v",
+            "description": "委卖四（量）",
+            "type": "number"
+          },
+          {
+            "name": "a4_p",
+            "description": "委卖四（价）",
+            "type": "number"
+          },
+          {
+            "name": "a5_v",
+            "description": "委卖五（量）",
+            "type": "number"
+          },
+          {
+            "name": "a5_p",
+            "description": "委卖五（价）",
+            "type": "number"
+          }
+        ]
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
+    },
+    "realtime_tick": {
+      "name": "realtime_tick",
+      "title": "实时成交数据(爬虫版)",
+      "description": "接口：realtime_tick，由于采集和拼接当日以来的成交全历史，因此接口提取数据时需要一定时间，请耐心等待。请将tushare升级到1.3.3版本以上。 描述：本接口是tushare org版实时接口的顺延，数据来自网络，且不进入tushare服务器，属于爬虫接口，数据包括该股票当日开盘以来的所有分笔成交数据。 权限：0积分完全开放，但需要有tushare账号，如果没有账号请先 注册 。 说明：由于该接口是纯爬虫程序，跟tushare服务器无关，因此tushare不对数据内容和质量负责。数据主要用于研究和学习使用，如做商业目的，请自行解决合规问题。",
+      "url": "https://tushare.pro/document/2?doc_id=316",
+      "doc_id": "316",
+      "input": {
+        "type": "object",
+        "properties": {
+          "ts_code": {
+            "type": "string",
+            "description": "股票代码，需按tushare 股票代码标准 输入，比如：000001.SZ表示平安银行，600000.SH表示浦发银行，单次只能输入一个股票"
+          },
+          "src": {
+            "type": "string",
+            "description": "数据源 （sina-新浪 dc-东方财富，默认sina）"
+          }
+        },
+        "required": []
+      },
+      "output": {
+        "type": "array",
+        "fields": [
+          {
+            "name": "time",
+            "description": "交易时间",
+            "type": "string"
+          },
+          {
+            "name": "price",
+            "description": "现价",
+            "type": "number"
+          },
+          {
+            "name": "change",
+            "description": "价格变动",
+            "type": "number"
+          },
+          {
+            "name": "volume",
+            "description": "成交量（单位：手）",
+            "type": "integer"
+          },
+          {
+            "name": "amount",
+            "description": "成交金额（元）",
+            "type": "integer"
+          },
+          {
+            "name": "type",
+            "description": "类型：买入/卖出/中性",
+            "type": "string"
+          }
+        ]
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
+    },
+    "realtime_list": {
+      "name": "realtime_list",
+      "title": "实时涨跌幅排名(爬虫版)",
+      "description": "接口：realtime_list，由于采集和拼接当日以来的成交全历史，因此接口提取数据时需要一定时间，请耐心等待，请将tushare升级到1.3.3版本以上。 描述：本接口是tushare org版实时接口的顺延，数据来自网络，且不进入tushare服务器，属于爬虫接口，数据包括该股票当日开盘以来的所有分笔成交数据。 权限：0积分完全开放，但需要有tushare账号，如果没有账号请先 注册 。 说明：由于该接口是纯爬虫程序，跟tushare服务器无关，因此tushare不对数据内容和质量负责。数据主要用于研究和学习使用，如做商业目的，请自行解决合规问题。",
+      "url": "https://tushare.pro/document/2?doc_id=317",
+      "doc_id": "317",
+      "input": {
+        "type": "object",
+        "properties": {
+          "src": {
+            "type": "string",
+            "description": "数据源 （sina-新浪 dc-东方财富，默认dc）"
+          }
+        },
+        "required": []
+      },
+      "output": {
+        "type": "array",
+        "fields": [
+          {
+            "name": "ts_code",
+            "description": "股票代码",
+            "type": "string"
+          },
+          {
+            "name": "name",
+            "description": "股票名称",
+            "type": "string"
+          },
+          {
+            "name": "price",
+            "description": "当前价格",
+            "type": "number"
+          },
+          {
+            "name": "pct_change",
+            "description": "涨跌幅",
+            "type": "number"
+          },
+          {
+            "name": "change",
+            "description": "涨跌额",
+            "type": "number"
+          },
+          {
+            "name": "volume",
+            "description": "成交量（单位：手）",
+            "type": "integer"
+          },
+          {
+            "name": "amount",
+            "description": "成交金额（元）",
+            "type": "integer"
+          },
+          {
+            "name": "swing",
+            "description": "振幅",
+            "type": "number"
+          },
+          {
+            "name": "low",
+            "description": "今日最低价",
+            "type": "number"
+          },
+          {
+            "name": "high",
+            "description": "今日最高价",
+            "type": "number"
+          },
+          {
+            "name": "open",
+            "description": "今日开盘价",
+            "type": "number"
+          },
+          {
+            "name": "close",
+            "description": "今日收盘价",
+            "type": "number"
+          },
+          {
+            "name": "vol_ratio",
+            "description": "量比",
+            "type": "integer"
+          },
+          {
+            "name": "turnover_rate",
+            "description": "换手率",
+            "type": "number"
+          },
+          {
+            "name": "pe",
+            "description": "市盈率PE",
+            "type": "integer"
+          },
+          {
+            "name": "pb",
+            "description": "市净率PB",
+            "type": "number"
+          },
+          {
+            "name": "total_mv",
+            "description": "总市值（元）",
+            "type": "number"
+          },
+          {
+            "name": "float_mv",
+            "description": "流通市值（元）",
+            "type": "number"
+          },
+          {
+            "name": "rise",
+            "description": "涨速",
+            "type": "number"
+          },
+          {
+            "name": "5min",
+            "description": "5分钟涨幅",
+            "type": "number"
+          },
+          {
+            "name": "60day",
+            "description": "60天涨幅",
+            "type": "number"
+          },
+          {
+            "name": "1tyear",
+            "description": "1年涨幅",
+            "type": "number"
+          }
+        ]
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "daily_basic": {
       "name": "daily_basic",
@@ -1806,7 +2305,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_limit": {
       "name": "stk_limit",
@@ -1865,7 +2369,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "suspend_d": {
       "name": "suspend_d",
@@ -1923,7 +2432,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "hsgt_top10": {
       "name": "hsgt_top10",
@@ -2016,7 +2530,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "ggt_top10": {
       "name": "ggt_top10",
@@ -2139,7 +2658,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "ggt_daily": {
       "name": "ggt_daily",
@@ -2194,7 +2718,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "ggt_monthly": {
       "name": "ggt_monthly",
@@ -2269,7 +2798,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 1000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "bak_daily": {
       "name": "bak_daily",
@@ -2466,7 +3000,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "income": {
       "name": "income",
@@ -2986,7 +3525,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "balancesheet": {
       "name": "balancesheet",
@@ -3822,7 +4366,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cashflow": {
       "name": "cashflow",
@@ -4361,7 +4910,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "forecast": {
       "name": "forecast",
@@ -4463,7 +5017,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "express": {
       "name": "express",
@@ -4661,7 +5220,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "dividend": {
       "name": "dividend",
@@ -4779,7 +5343,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fina_indicator": {
       "name": "fina_indicator",
@@ -5652,7 +6221,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fina_audit": {
       "name": "fina_audit",
@@ -5725,7 +6299,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 500,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fina_mainbz": {
       "name": "fina_mainbz",
@@ -5803,7 +6382,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "disclosure_date": {
       "name": "disclosure_date",
@@ -5871,7 +6455,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 500,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "top10_holders": {
       "name": "top10_holders",
@@ -5954,7 +6543,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "top10_floatholders": {
       "name": "top10_floatholders",
@@ -6037,7 +6631,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "pledge_stat": {
       "name": "pledge_stat",
@@ -6098,7 +6697,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 500,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "pledge_detail": {
       "name": "pledge_detail",
@@ -6190,7 +6794,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 500,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "repurchase": {
       "name": "repurchase",
@@ -6265,7 +6874,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 600,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "share_float": {
       "name": "share_float",
@@ -6338,7 +6952,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "block_trade": {
       "name": "block_trade",
@@ -6407,7 +7026,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 300,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_account": {
       "name": "stk_account",
@@ -6462,7 +7086,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 600,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_account_old": {
       "name": "stk_account_old",
@@ -6533,7 +7162,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 600,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_holdernumber": {
       "name": "stk_holdernumber",
@@ -6591,7 +7225,12 @@
             "type": "integer"
           }
         ]
-      }
+      },
+      "min_points": 600,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_holdertrade": {
       "name": "stk_holdertrade",
@@ -6698,7 +7337,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "report_rc": {
       "name": "report_rc",
@@ -6848,7 +7492,12 @@
             "format": "date-time"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": true,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cyq_perf": {
       "name": "cyq_perf",
@@ -6937,7 +7586,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": true,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cyq_chips": {
       "name": "cyq_chips",
@@ -6991,7 +7645,1356 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": true,
+      "permission_required": false,
+      "permission_granted": false
+    },
+    "stk_factor_pro": {
+      "name": "stk_factor_pro",
+      "title": "股票技术面因子(专业版)",
+      "description": "接口：stk_factor_pro 描述：获取股票每日技术面因子数据，用于跟踪股票当前走势情况，数据由Tushare社区自产，覆盖全历史；输出参数_bfq表示不复权，_qfq表示前复权 _hfq表示后复权，描述中说明了因子的默认传参，如需要特殊参数或者更多因子可以联系管理员评估 限量：单次调取最多返回10000条数据，可以通过日期参数循环 积分：5000积分每分钟可以请求30次，8000积分以上每分钟500次，具体请参阅 积分获取办法",
+      "url": "https://tushare.pro/document/2?doc_id=328",
+      "doc_id": "328",
+      "input": {
+        "type": "object",
+        "properties": {
+          "ts_code": {
+            "type": "string",
+            "description": "股票代码"
+          },
+          "trade_date": {
+            "type": "string",
+            "description": "交易日期(格式：yyyymmdd，下同)"
+          },
+          "start_date": {
+            "type": "string",
+            "description": "开始日期"
+          },
+          "end_date": {
+            "type": "string",
+            "description": "结束日期"
+          }
+        },
+        "required": []
+      },
+      "output": {
+        "type": "array",
+        "fields": [
+          {
+            "name": "ts_code",
+            "description": "股票代码",
+            "type": "string"
+          },
+          {
+            "name": "trade_date",
+            "description": "交易日期",
+            "type": "string"
+          },
+          {
+            "name": "open",
+            "description": "开盘价",
+            "type": "number"
+          },
+          {
+            "name": "open_hfq",
+            "description": "开盘价（后复权）",
+            "type": "number"
+          },
+          {
+            "name": "open_qfq",
+            "description": "开盘价（前复权）",
+            "type": "number"
+          },
+          {
+            "name": "high",
+            "description": "最高价",
+            "type": "number"
+          },
+          {
+            "name": "high_hfq",
+            "description": "最高价（后复权）",
+            "type": "number"
+          },
+          {
+            "name": "high_qfq",
+            "description": "最高价（前复权）",
+            "type": "number"
+          },
+          {
+            "name": "low",
+            "description": "最低价",
+            "type": "number"
+          },
+          {
+            "name": "low_hfq",
+            "description": "最低价（后复权）",
+            "type": "number"
+          },
+          {
+            "name": "low_qfq",
+            "description": "最低价（前复权）",
+            "type": "number"
+          },
+          {
+            "name": "close",
+            "description": "收盘价",
+            "type": "number"
+          },
+          {
+            "name": "close_hfq",
+            "description": "收盘价（后复权）",
+            "type": "number"
+          },
+          {
+            "name": "close_qfq",
+            "description": "收盘价（前复权）",
+            "type": "number"
+          },
+          {
+            "name": "pre_close",
+            "description": "昨收价(前复权)--为daily接口的pre_close,以当时复权因子计算值跟前一日close_qfq对不上，可不用",
+            "type": "number"
+          },
+          {
+            "name": "change",
+            "description": "涨跌额",
+            "type": "number"
+          },
+          {
+            "name": "pct_chg",
+            "description": "涨跌幅 （未复权，如果是复权请用 通用行情接口 ）",
+            "type": "number"
+          },
+          {
+            "name": "vol",
+            "description": "成交量 （手）",
+            "type": "number"
+          },
+          {
+            "name": "amount",
+            "description": "成交额 （千元）",
+            "type": "number"
+          },
+          {
+            "name": "turnover_rate",
+            "description": "换手率（%）",
+            "type": "number"
+          },
+          {
+            "name": "turnover_rate_f",
+            "description": "换手率（自由流通股）",
+            "type": "number"
+          },
+          {
+            "name": "volume_ratio",
+            "description": "量比",
+            "type": "number"
+          },
+          {
+            "name": "pe",
+            "description": "市盈率（总市值/净利润， 亏损的PE为空）",
+            "type": "number"
+          },
+          {
+            "name": "pe_ttm",
+            "description": "市盈率（TTM，亏损的PE为空）",
+            "type": "number"
+          },
+          {
+            "name": "pb",
+            "description": "市净率（总市值/净资产）",
+            "type": "number"
+          },
+          {
+            "name": "ps",
+            "description": "市销率",
+            "type": "number"
+          },
+          {
+            "name": "ps_ttm",
+            "description": "市销率（TTM）",
+            "type": "number"
+          },
+          {
+            "name": "dv_ratio",
+            "description": "股息率 （%）",
+            "type": "number"
+          },
+          {
+            "name": "dv_ttm",
+            "description": "股息率（TTM）（%）",
+            "type": "number"
+          },
+          {
+            "name": "total_share",
+            "description": "总股本 （万股）",
+            "type": "number"
+          },
+          {
+            "name": "float_share",
+            "description": "流通股本 （万股）",
+            "type": "number"
+          },
+          {
+            "name": "free_share",
+            "description": "自由流通股本 （万）",
+            "type": "number"
+          },
+          {
+            "name": "total_mv",
+            "description": "总市值 （万元）",
+            "type": "number"
+          },
+          {
+            "name": "circ_mv",
+            "description": "流通市值（万元）",
+            "type": "number"
+          },
+          {
+            "name": "adj_factor",
+            "description": "复权因子",
+            "type": "number"
+          },
+          {
+            "name": "asi_bfq",
+            "description": "振动升降指标-OPEN, CLOSE, HIGH, LOW, M1=26, M2=10",
+            "type": "number"
+          },
+          {
+            "name": "asi_hfq",
+            "description": "振动升降指标-OPEN, CLOSE, HIGH, LOW, M1=26, M2=10",
+            "type": "number"
+          },
+          {
+            "name": "asi_qfq",
+            "description": "振动升降指标-OPEN, CLOSE, HIGH, LOW, M1=26, M2=10",
+            "type": "number"
+          },
+          {
+            "name": "asit_bfq",
+            "description": "振动升降指标-OPEN, CLOSE, HIGH, LOW, M1=26, M2=10",
+            "type": "number"
+          },
+          {
+            "name": "asit_hfq",
+            "description": "振动升降指标-OPEN, CLOSE, HIGH, LOW, M1=26, M2=10",
+            "type": "number"
+          },
+          {
+            "name": "asit_qfq",
+            "description": "振动升降指标-OPEN, CLOSE, HIGH, LOW, M1=26, M2=10",
+            "type": "number"
+          },
+          {
+            "name": "atr_bfq",
+            "description": "真实波动N日平均值-CLOSE, HIGH, LOW, N=20",
+            "type": "number"
+          },
+          {
+            "name": "atr_hfq",
+            "description": "真实波动N日平均值-CLOSE, HIGH, LOW, N=20",
+            "type": "number"
+          },
+          {
+            "name": "atr_qfq",
+            "description": "真实波动N日平均值-CLOSE, HIGH, LOW, N=20",
+            "type": "number"
+          },
+          {
+            "name": "bbi_bfq",
+            "description": "BBI多空指标-CLOSE, M1=3, M2=6, M3=12, M4=20",
+            "type": "number"
+          },
+          {
+            "name": "bbi_hfq",
+            "description": "BBI多空指标-CLOSE, M1=3, M2=6, M3=12, M4=21",
+            "type": "number"
+          },
+          {
+            "name": "bbi_qfq",
+            "description": "BBI多空指标-CLOSE, M1=3, M2=6, M3=12, M4=22",
+            "type": "number"
+          },
+          {
+            "name": "bias1_bfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "bias1_hfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "bias1_qfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "bias2_bfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "bias2_hfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "bias2_qfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "bias3_bfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "bias3_hfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "bias3_qfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "boll_lower_bfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "boll_lower_hfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "boll_lower_qfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "boll_mid_bfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "boll_mid_hfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "boll_mid_qfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "boll_upper_bfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "boll_upper_hfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "boll_upper_qfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "brar_ar_bfq",
+            "description": "BRAR情绪指标-OPEN, CLOSE, HIGH, LOW, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "brar_ar_hfq",
+            "description": "BRAR情绪指标-OPEN, CLOSE, HIGH, LOW, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "brar_ar_qfq",
+            "description": "BRAR情绪指标-OPEN, CLOSE, HIGH, LOW, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "brar_br_bfq",
+            "description": "BRAR情绪指标-OPEN, CLOSE, HIGH, LOW, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "brar_br_hfq",
+            "description": "BRAR情绪指标-OPEN, CLOSE, HIGH, LOW, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "brar_br_qfq",
+            "description": "BRAR情绪指标-OPEN, CLOSE, HIGH, LOW, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "cci_bfq",
+            "description": "顺势指标又叫CCI指标-CLOSE, HIGH, LOW, N=14",
+            "type": "number"
+          },
+          {
+            "name": "cci_hfq",
+            "description": "顺势指标又叫CCI指标-CLOSE, HIGH, LOW, N=14",
+            "type": "number"
+          },
+          {
+            "name": "cci_qfq",
+            "description": "顺势指标又叫CCI指标-CLOSE, HIGH, LOW, N=14",
+            "type": "number"
+          },
+          {
+            "name": "cr_bfq",
+            "description": "CR价格动量指标-CLOSE, HIGH, LOW, N=20",
+            "type": "number"
+          },
+          {
+            "name": "cr_hfq",
+            "description": "CR价格动量指标-CLOSE, HIGH, LOW, N=20",
+            "type": "number"
+          },
+          {
+            "name": "cr_qfq",
+            "description": "CR价格动量指标-CLOSE, HIGH, LOW, N=20",
+            "type": "number"
+          },
+          {
+            "name": "dfma_dif_bfq",
+            "description": "平行线差指标-CLOSE, N1=10, N2=50, M=10",
+            "type": "number"
+          },
+          {
+            "name": "dfma_dif_hfq",
+            "description": "平行线差指标-CLOSE, N1=10, N2=50, M=10",
+            "type": "number"
+          },
+          {
+            "name": "dfma_dif_qfq",
+            "description": "平行线差指标-CLOSE, N1=10, N2=50, M=10",
+            "type": "number"
+          },
+          {
+            "name": "dfma_difma_bfq",
+            "description": "平行线差指标-CLOSE, N1=10, N2=50, M=10",
+            "type": "number"
+          },
+          {
+            "name": "dfma_difma_hfq",
+            "description": "平行线差指标-CLOSE, N1=10, N2=50, M=10",
+            "type": "number"
+          },
+          {
+            "name": "dfma_difma_qfq",
+            "description": "平行线差指标-CLOSE, N1=10, N2=50, M=10",
+            "type": "number"
+          },
+          {
+            "name": "dmi_adx_bfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_adx_hfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_adx_qfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_adxr_bfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_adxr_hfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_adxr_qfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_mdi_bfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_mdi_hfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_mdi_qfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_pdi_bfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_pdi_hfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_pdi_qfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "downdays",
+            "description": "连跌天数",
+            "type": "number"
+          },
+          {
+            "name": "updays",
+            "description": "连涨天数",
+            "type": "number"
+          },
+          {
+            "name": "dpo_bfq",
+            "description": "区间震荡线-CLOSE, M1=20, M2=10, M3=6",
+            "type": "number"
+          },
+          {
+            "name": "dpo_hfq",
+            "description": "区间震荡线-CLOSE, M1=20, M2=10, M3=6",
+            "type": "number"
+          },
+          {
+            "name": "dpo_qfq",
+            "description": "区间震荡线-CLOSE, M1=20, M2=10, M3=6",
+            "type": "number"
+          },
+          {
+            "name": "madpo_bfq",
+            "description": "区间震荡线-CLOSE, M1=20, M2=10, M3=6",
+            "type": "number"
+          },
+          {
+            "name": "madpo_hfq",
+            "description": "区间震荡线-CLOSE, M1=20, M2=10, M3=6",
+            "type": "number"
+          },
+          {
+            "name": "madpo_qfq",
+            "description": "区间震荡线-CLOSE, M1=20, M2=10, M3=6",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_10",
+            "description": "指数移动平均-N=10",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_20",
+            "description": "指数移动平均-N=20",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_250",
+            "description": "指数移动平均-N=250",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_30",
+            "description": "指数移动平均-N=30",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_5",
+            "description": "指数移动平均-N=5",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_60",
+            "description": "指数移动平均-N=60",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_90",
+            "description": "指数移动平均-N=90",
+            "type": "number"
+          },
+          {
+            "name": "ema_hfq_10",
+            "description": "指数移动平均-N=10",
+            "type": "number"
+          },
+          {
+            "name": "ema_hfq_20",
+            "description": "指数移动平均-N=20",
+            "type": "number"
+          },
+          {
+            "name": "ema_hfq_250",
+            "description": "指数移动平均-N=250",
+            "type": "number"
+          },
+          {
+            "name": "ema_hfq_30",
+            "description": "指数移动平均-N=30",
+            "type": "number"
+          },
+          {
+            "name": "ema_hfq_5",
+            "description": "指数移动平均-N=5",
+            "type": "number"
+          },
+          {
+            "name": "ema_hfq_60",
+            "description": "指数移动平均-N=60",
+            "type": "number"
+          },
+          {
+            "name": "ema_hfq_90",
+            "description": "指数移动平均-N=90",
+            "type": "number"
+          },
+          {
+            "name": "ema_qfq_10",
+            "description": "指数移动平均-N=10",
+            "type": "number"
+          },
+          {
+            "name": "ema_qfq_20",
+            "description": "指数移动平均-N=20",
+            "type": "number"
+          },
+          {
+            "name": "ema_qfq_250",
+            "description": "指数移动平均-N=250",
+            "type": "number"
+          },
+          {
+            "name": "ema_qfq_30",
+            "description": "指数移动平均-N=30",
+            "type": "number"
+          },
+          {
+            "name": "ema_qfq_5",
+            "description": "指数移动平均-N=5",
+            "type": "number"
+          },
+          {
+            "name": "ema_qfq_60",
+            "description": "指数移动平均-N=60",
+            "type": "number"
+          },
+          {
+            "name": "ema_qfq_90",
+            "description": "指数移动平均-N=90",
+            "type": "number"
+          },
+          {
+            "name": "emv_bfq",
+            "description": "简易波动指标-HIGH, LOW, VOL, N=14, M=9",
+            "type": "number"
+          },
+          {
+            "name": "emv_hfq",
+            "description": "简易波动指标-HIGH, LOW, VOL, N=14, M=9",
+            "type": "number"
+          },
+          {
+            "name": "emv_qfq",
+            "description": "简易波动指标-HIGH, LOW, VOL, N=14, M=9",
+            "type": "number"
+          },
+          {
+            "name": "maemv_bfq",
+            "description": "简易波动指标-HIGH, LOW, VOL, N=14, M=9",
+            "type": "number"
+          },
+          {
+            "name": "maemv_hfq",
+            "description": "简易波动指标-HIGH, LOW, VOL, N=14, M=9",
+            "type": "number"
+          },
+          {
+            "name": "maemv_qfq",
+            "description": "简易波动指标-HIGH, LOW, VOL, N=14, M=9",
+            "type": "number"
+          },
+          {
+            "name": "expma_12_bfq",
+            "description": "EMA指数平均数指标-CLOSE, N1=12, N2=50",
+            "type": "number"
+          },
+          {
+            "name": "expma_12_hfq",
+            "description": "EMA指数平均数指标-CLOSE, N1=12, N2=50",
+            "type": "number"
+          },
+          {
+            "name": "expma_12_qfq",
+            "description": "EMA指数平均数指标-CLOSE, N1=12, N2=50",
+            "type": "number"
+          },
+          {
+            "name": "expma_50_bfq",
+            "description": "EMA指数平均数指标-CLOSE, N1=12, N2=50",
+            "type": "number"
+          },
+          {
+            "name": "expma_50_hfq",
+            "description": "EMA指数平均数指标-CLOSE, N1=12, N2=50",
+            "type": "number"
+          },
+          {
+            "name": "expma_50_qfq",
+            "description": "EMA指数平均数指标-CLOSE, N1=12, N2=50",
+            "type": "number"
+          },
+          {
+            "name": "kdj_bfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "kdj_hfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "kdj_qfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "kdj_d_bfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "kdj_d_hfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "kdj_d_qfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "kdj_k_bfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "kdj_k_hfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "kdj_k_qfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "ktn_down_bfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "ktn_down_hfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "ktn_down_qfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "ktn_mid_bfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "ktn_mid_hfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "ktn_mid_qfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "ktn_upper_bfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "ktn_upper_hfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "ktn_upper_qfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "lowdays",
+            "description": "LOWRANGE(LOW)表示当前最低价是近多少周期内最低价的最小值",
+            "type": "number"
+          },
+          {
+            "name": "topdays",
+            "description": "TOPRANGE(HIGH)表示当前最高价是近多少周期内最高价的最大值",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_10",
+            "description": "简单移动平均-N=10",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_20",
+            "description": "简单移动平均-N=20",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_250",
+            "description": "简单移动平均-N=250",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_30",
+            "description": "简单移动平均-N=30",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_5",
+            "description": "简单移动平均-N=5",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_60",
+            "description": "简单移动平均-N=60",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_90",
+            "description": "简单移动平均-N=90",
+            "type": "number"
+          },
+          {
+            "name": "ma_hfq_10",
+            "description": "简单移动平均-N=10",
+            "type": "number"
+          },
+          {
+            "name": "ma_hfq_20",
+            "description": "简单移动平均-N=20",
+            "type": "number"
+          },
+          {
+            "name": "ma_hfq_250",
+            "description": "简单移动平均-N=250",
+            "type": "number"
+          },
+          {
+            "name": "ma_hfq_30",
+            "description": "简单移动平均-N=30",
+            "type": "number"
+          },
+          {
+            "name": "ma_hfq_5",
+            "description": "简单移动平均-N=5",
+            "type": "number"
+          },
+          {
+            "name": "ma_hfq_60",
+            "description": "简单移动平均-N=60",
+            "type": "number"
+          },
+          {
+            "name": "ma_hfq_90",
+            "description": "简单移动平均-N=90",
+            "type": "number"
+          },
+          {
+            "name": "ma_qfq_10",
+            "description": "简单移动平均-N=10",
+            "type": "number"
+          },
+          {
+            "name": "ma_qfq_20",
+            "description": "简单移动平均-N=20",
+            "type": "number"
+          },
+          {
+            "name": "ma_qfq_250",
+            "description": "简单移动平均-N=250",
+            "type": "number"
+          },
+          {
+            "name": "ma_qfq_30",
+            "description": "简单移动平均-N=30",
+            "type": "number"
+          },
+          {
+            "name": "ma_qfq_5",
+            "description": "简单移动平均-N=5",
+            "type": "number"
+          },
+          {
+            "name": "ma_qfq_60",
+            "description": "简单移动平均-N=60",
+            "type": "number"
+          },
+          {
+            "name": "ma_qfq_90",
+            "description": "简单移动平均-N=90",
+            "type": "number"
+          },
+          {
+            "name": "macd_bfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "macd_hfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "macd_qfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "macd_dea_bfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "macd_dea_hfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "macd_dea_qfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "macd_dif_bfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "macd_dif_hfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "macd_dif_qfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "mass_bfq",
+            "description": "梅斯线-HIGH, LOW, N1=9, N2=25, M=6",
+            "type": "number"
+          },
+          {
+            "name": "mass_hfq",
+            "description": "梅斯线-HIGH, LOW, N1=9, N2=25, M=6",
+            "type": "number"
+          },
+          {
+            "name": "mass_qfq",
+            "description": "梅斯线-HIGH, LOW, N1=9, N2=25, M=6",
+            "type": "number"
+          },
+          {
+            "name": "ma_mass_bfq",
+            "description": "梅斯线-HIGH, LOW, N1=9, N2=25, M=6",
+            "type": "number"
+          },
+          {
+            "name": "ma_mass_hfq",
+            "description": "梅斯线-HIGH, LOW, N1=9, N2=25, M=6",
+            "type": "number"
+          },
+          {
+            "name": "ma_mass_qfq",
+            "description": "梅斯线-HIGH, LOW, N1=9, N2=25, M=6",
+            "type": "number"
+          },
+          {
+            "name": "mfi_bfq",
+            "description": "MFI指标是成交量的RSI指标-CLOSE, HIGH, LOW, VOL, N=14",
+            "type": "number"
+          },
+          {
+            "name": "mfi_hfq",
+            "description": "MFI指标是成交量的RSI指标-CLOSE, HIGH, LOW, VOL, N=14",
+            "type": "number"
+          },
+          {
+            "name": "mfi_qfq",
+            "description": "MFI指标是成交量的RSI指标-CLOSE, HIGH, LOW, VOL, N=14",
+            "type": "number"
+          },
+          {
+            "name": "mtm_bfq",
+            "description": "动量指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "mtm_hfq",
+            "description": "动量指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "mtm_qfq",
+            "description": "动量指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "mtmma_bfq",
+            "description": "动量指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "mtmma_hfq",
+            "description": "动量指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "mtmma_qfq",
+            "description": "动量指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "obv_bfq",
+            "description": "能量潮指标-CLOSE, VOL",
+            "type": "number"
+          },
+          {
+            "name": "obv_hfq",
+            "description": "能量潮指标-CLOSE, VOL",
+            "type": "number"
+          },
+          {
+            "name": "obv_qfq",
+            "description": "能量潮指标-CLOSE, VOL",
+            "type": "number"
+          },
+          {
+            "name": "psy_bfq",
+            "description": "投资者对股市涨跌产生心理波动的情绪指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "psy_hfq",
+            "description": "投资者对股市涨跌产生心理波动的情绪指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "psy_qfq",
+            "description": "投资者对股市涨跌产生心理波动的情绪指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "psyma_bfq",
+            "description": "投资者对股市涨跌产生心理波动的情绪指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "psyma_hfq",
+            "description": "投资者对股市涨跌产生心理波动的情绪指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "psyma_qfq",
+            "description": "投资者对股市涨跌产生心理波动的情绪指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "roc_bfq",
+            "description": "变动率指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "roc_hfq",
+            "description": "变动率指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "roc_qfq",
+            "description": "变动率指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "maroc_bfq",
+            "description": "变动率指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "maroc_hfq",
+            "description": "变动率指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "maroc_qfq",
+            "description": "变动率指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "rsi_bfq_12",
+            "description": "RSI指标-CLOSE, N=12",
+            "type": "number"
+          },
+          {
+            "name": "rsi_bfq_24",
+            "description": "RSI指标-CLOSE, N=24",
+            "type": "number"
+          },
+          {
+            "name": "rsi_bfq_6",
+            "description": "RSI指标-CLOSE, N=6",
+            "type": "number"
+          },
+          {
+            "name": "rsi_hfq_12",
+            "description": "RSI指标-CLOSE, N=12",
+            "type": "number"
+          },
+          {
+            "name": "rsi_hfq_24",
+            "description": "RSI指标-CLOSE, N=24",
+            "type": "number"
+          },
+          {
+            "name": "rsi_hfq_6",
+            "description": "RSI指标-CLOSE, N=6",
+            "type": "number"
+          },
+          {
+            "name": "rsi_qfq_12",
+            "description": "RSI指标-CLOSE, N=12",
+            "type": "number"
+          },
+          {
+            "name": "rsi_qfq_24",
+            "description": "RSI指标-CLOSE, N=24",
+            "type": "number"
+          },
+          {
+            "name": "rsi_qfq_6",
+            "description": "RSI指标-CLOSE, N=6",
+            "type": "number"
+          },
+          {
+            "name": "taq_down_bfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "taq_down_hfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "taq_down_qfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "taq_mid_bfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "taq_mid_hfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "taq_mid_qfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "taq_up_bfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "taq_up_hfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "taq_up_qfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "trix_bfq",
+            "description": "三重指数平滑平均线-CLOSE, M1=12, M2=20",
+            "type": "number"
+          },
+          {
+            "name": "trix_hfq",
+            "description": "三重指数平滑平均线-CLOSE, M1=12, M2=20",
+            "type": "number"
+          },
+          {
+            "name": "trix_qfq",
+            "description": "三重指数平滑平均线-CLOSE, M1=12, M2=20",
+            "type": "number"
+          },
+          {
+            "name": "trma_bfq",
+            "description": "三重指数平滑平均线-CLOSE, M1=12, M2=20",
+            "type": "number"
+          },
+          {
+            "name": "trma_hfq",
+            "description": "三重指数平滑平均线-CLOSE, M1=12, M2=20",
+            "type": "number"
+          },
+          {
+            "name": "trma_qfq",
+            "description": "三重指数平滑平均线-CLOSE, M1=12, M2=20",
+            "type": "number"
+          },
+          {
+            "name": "vr_bfq",
+            "description": "VR容量比率-CLOSE, VOL, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "vr_hfq",
+            "description": "VR容量比率-CLOSE, VOL, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "vr_qfq",
+            "description": "VR容量比率-CLOSE, VOL, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "wr_bfq",
+            "description": "W&R 威廉指标-CLOSE, HIGH, LOW, N=10, N1=6",
+            "type": "number"
+          },
+          {
+            "name": "wr_hfq",
+            "description": "W&R 威廉指标-CLOSE, HIGH, LOW, N=10, N1=6",
+            "type": "number"
+          },
+          {
+            "name": "wr_qfq",
+            "description": "W&R 威廉指标-CLOSE, HIGH, LOW, N=10, N1=6",
+            "type": "number"
+          },
+          {
+            "name": "wr1_bfq",
+            "description": "W&R 威廉指标-CLOSE, HIGH, LOW, N=10, N1=6",
+            "type": "number"
+          },
+          {
+            "name": "wr1_hfq",
+            "description": "W&R 威廉指标-CLOSE, HIGH, LOW, N=10, N1=6",
+            "type": "number"
+          },
+          {
+            "name": "wr1_qfq",
+            "description": "W&R 威廉指标-CLOSE, HIGH, LOW, N=10, N1=6",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td1_bfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td1_hfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td1_qfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td2_bfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td2_hfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td2_qfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td3_bfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td3_hfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td3_qfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td4_bfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td4_hfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td4_qfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          }
+        ]
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": true,
+      "permission_required": false,
+      "permission_granted": false
     },
     "ccass_hold": {
       "name": "ccass_hold",
@@ -7059,7 +9062,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": true,
+      "permission_required": false,
+      "permission_granted": false
     },
     "ccass_hold_detail": {
       "name": "ccass_hold_detail",
@@ -7132,7 +9140,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 8000,
+      "max_rows": null,
+      "is_special": true,
+      "permission_required": false,
+      "permission_granted": false
     },
     "hk_hold": {
       "name": "hk_hold",
@@ -7209,7 +9222,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": true,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_auction_o": {
       "name": "stk_auction_o",
@@ -7288,7 +9306,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": true,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_auction_c": {
       "name": "stk_auction_c",
@@ -7367,7 +9390,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": true,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_nineturn": {
       "name": "stk_nineturn",
@@ -7471,7 +9499,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 6000,
+      "max_rows": null,
+      "is_special": true,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_ah_comparison": {
       "name": "stk_ah_comparison",
@@ -7564,7 +9597,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": true,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_surv": {
       "name": "stk_surv",
@@ -7649,7 +9687,12 @@
             "ts_type": "none"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": true,
+      "permission_required": false,
+      "permission_granted": false
     },
     "broker_recommend": {
       "name": "broker_recommend",
@@ -7691,7 +9734,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": true,
+      "permission_required": false,
+      "permission_granted": false
     },
     "margin": {
       "name": "margin",
@@ -7770,7 +9818,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "margin_detail": {
       "name": "margin_detail",
@@ -7859,7 +9912,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "margin_secs": {
       "name": "margin_secs",
@@ -7917,7 +9975,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "slb_sec": {
       "name": "slb_sec",
@@ -7986,7 +10049,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "slb_len": {
       "name": "slb_len",
@@ -8046,7 +10114,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "slb_sec_detail": {
       "name": "slb_sec_detail",
@@ -8110,7 +10183,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "slb_len_mm": {
       "name": "slb_len_mm",
@@ -8179,7 +10257,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "moneyflow": {
       "name": "moneyflow",
@@ -8313,7 +10396,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "moneyflow_ths": {
       "name": "moneyflow_ths",
@@ -8412,7 +10500,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "moneyflow_dc": {
       "name": "moneyflow_dc",
@@ -8521,7 +10614,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "moneyflow_cnt_ths": {
       "name": "moneyflow_cnt_ths",
@@ -8615,7 +10713,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "moneyflow_ind_ths": {
       "name": "moneyflow_ind_ths",
@@ -8709,7 +10812,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "moneyflow_ind_dc": {
       "name": "moneyflow_ind_dc",
@@ -8837,7 +10945,12 @@
             "type": "integer"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "moneyflow_mkt_dc": {
       "name": "moneyflow_mkt_dc",
@@ -8929,7 +11042,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "moneyflow_hsgt": {
       "name": "moneyflow_hsgt",
@@ -8994,7 +11112,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "top_list": {
       "name": "top_list",
@@ -9095,7 +11218,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "top_inst": {
       "name": "top_inst",
@@ -9171,7 +11299,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "limit_list_ths": {
       "name": "limit_list_ths",
@@ -9333,7 +11466,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 8000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "limit_list_d": {
       "name": "limit_list_d",
@@ -9465,7 +11603,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "limit_step": {
       "name": "limit_step",
@@ -9523,7 +11666,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 8000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "limit_cpt_list": {
       "name": "limit_cpt_list",
@@ -9602,7 +11750,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 8000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "ths_index": {
       "name": "ths_index",
@@ -9662,7 +11815,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 6000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "ths_daily": {
       "name": "ths_daily",
@@ -9766,7 +11924,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 6000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "ths_member": {
       "name": "ths_member",
@@ -9827,7 +11990,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 6000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "dc_index": {
       "name": "dc_index",
@@ -9920,7 +12088,12 @@
             "type": "integer"
           }
         ]
-      }
+      },
+      "min_points": 6000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "dc_member": {
       "name": "dc_member",
@@ -9970,7 +12143,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 6000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "dc_daily": {
       "name": "dc_daily",
@@ -10068,7 +12246,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 6000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "stk_auction": {
       "name": "stk_auction",
@@ -10147,7 +12330,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "hm_list": {
       "name": "hm_list",
@@ -10185,7 +12373,12 @@
             "ts_type": "none"
           }
         ]
-      }
+      },
+      "min_points": 500,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "hm_detail": {
       "name": "hm_detail",
@@ -10268,7 +12461,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 10000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "ths_hot": {
       "name": "ths_hot",
@@ -10357,7 +12555,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 6000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "dc_hot": {
       "name": "dc_hot",
@@ -10435,7 +12638,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 8000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "tdx_index": {
       "name": "tdx_index",
@@ -10510,7 +12718,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 6000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "tdx_member": {
       "name": "tdx_member",
@@ -10556,7 +12769,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 6000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "tdx_daily": {
       "name": "tdx_daily",
@@ -10780,7 +12998,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 6000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "kpl_list": {
       "name": "kpl_list",
@@ -10938,7 +13161,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "kpl_concept": {
       "name": "kpl_concept",
@@ -10994,7 +13222,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "kpl_concept_cons": {
       "name": "kpl_concept_cons",
@@ -11060,7 +13293,12 @@
             "ts_type": "none"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "etf_basic": {
       "name": "etf_basic",
@@ -11172,7 +13410,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 8000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "etf_index": {
       "name": "etf_index",
@@ -11242,7 +13485,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 8000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "rt_etf_k": {
       "name": "rt_etf_k",
@@ -11334,7 +13582,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "fund_daily": {
       "name": "fund_daily",
@@ -11423,7 +13676,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fund_adj": {
       "name": "fund_adj",
@@ -11480,7 +13738,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 600,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "etf_share_size": {
       "name": "etf_share_size",
@@ -11558,7 +13821,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 8000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "index_basic": {
       "name": "index_basic",
@@ -11661,7 +13929,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "index_daily": {
       "name": "index_daily",
@@ -11751,7 +14024,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "rt_idx_k": {
       "name": "rt_idx_k",
@@ -11823,7 +14101,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "index_weekly": {
       "name": "index_weekly",
@@ -11912,7 +14195,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 600,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "index_monthly": {
       "name": "index_monthly",
@@ -12001,7 +14289,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 600,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "index_weight": {
       "name": "index_weight",
@@ -12056,7 +14349,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "index_dailybasic": {
       "name": "index_dailybasic",
@@ -12150,7 +14448,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 400,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "index_classify": {
       "name": "index_classify",
@@ -12219,7 +14522,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "index_member_all": {
       "name": "index_member_all",
@@ -12312,7 +14620,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "sw_daily": {
       "name": "sw_daily",
@@ -12421,7 +14734,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "ci_index_member": {
       "name": "ci_index_member",
@@ -12514,7 +14832,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "ci_daily": {
       "name": "ci_daily",
@@ -12603,7 +14926,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "index_global": {
       "name": "index_global",
@@ -12697,7 +15025,496 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 6000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
+    },
+    "idx_factor_pro": {
+      "name": "idx_factor_pro",
+      "title": "指数技术因子(专业版)",
+      "description": "接口：idx_factor_pro 描述：获取指数每日技术面因子数据，用于跟踪指数当前走势情况，数据由Tushare社区自产，覆盖全历史；输出参数_bfq表示不复权描述中说明了因子的默认传参，如需要特殊参数或者更多因子可以联系管理员评估，指数包括大盘指数 申万行业指数 中信指数 限量：单次最大8000 积分：5000积分每分钟可以请求30次，8000积分以上每分钟500次",
+      "url": "https://tushare.pro/document/2?doc_id=358",
+      "doc_id": "358",
+      "input": {
+        "type": "object",
+        "properties": {
+          "ts_code": {
+            "type": "string",
+            "description": "指数代码(大盘指数 申万指数 中信指数)"
+          },
+          "start_date": {
+            "type": "string",
+            "description": "开始日期"
+          },
+          "end_date": {
+            "type": "string",
+            "description": "结束日期"
+          },
+          "trade_date": {
+            "type": "string",
+            "description": "交易日期"
+          }
+        },
+        "required": []
+      },
+      "output": {
+        "type": "array",
+        "fields": [
+          {
+            "name": "ts_code",
+            "description": "指数代码",
+            "type": "string"
+          },
+          {
+            "name": "trade_date",
+            "description": "交易日期",
+            "type": "string"
+          },
+          {
+            "name": "open",
+            "description": "开盘价",
+            "type": "number"
+          },
+          {
+            "name": "high",
+            "description": "最高价",
+            "type": "number"
+          },
+          {
+            "name": "low",
+            "description": "最低价",
+            "type": "number"
+          },
+          {
+            "name": "close",
+            "description": "收盘价",
+            "type": "number"
+          },
+          {
+            "name": "pre_close",
+            "description": "昨收价",
+            "type": "number"
+          },
+          {
+            "name": "change",
+            "description": "涨跌额",
+            "type": "number"
+          },
+          {
+            "name": "pct_change",
+            "description": "涨跌幅 （未复权，如果是复权请用 通用行情接口 ）",
+            "type": "number"
+          },
+          {
+            "name": "vol",
+            "description": "成交量 （手）",
+            "type": "number"
+          },
+          {
+            "name": "amount",
+            "description": "成交额 （千元）",
+            "type": "number"
+          },
+          {
+            "name": "asi_bfq",
+            "description": "振动升降指标-OPEN, CLOSE, HIGH, LOW, M1=26, M2=10",
+            "type": "number"
+          },
+          {
+            "name": "asit_bfq",
+            "description": "振动升降指标-OPEN, CLOSE, HIGH, LOW, M1=26, M2=10",
+            "type": "number"
+          },
+          {
+            "name": "atr_bfq",
+            "description": "真实波动N日平均值-CLOSE, HIGH, LOW, N=20",
+            "type": "number"
+          },
+          {
+            "name": "bbi_bfq",
+            "description": "BBI多空指标-CLOSE, M1=3, M2=6, M3=12, M4=20",
+            "type": "number"
+          },
+          {
+            "name": "bias1_bfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "bias2_bfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "bias3_bfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "boll_lower_bfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "boll_mid_bfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "boll_upper_bfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "brar_ar_bfq",
+            "description": "BRAR情绪指标-OPEN, CLOSE, HIGH, LOW, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "brar_br_bfq",
+            "description": "BRAR情绪指标-OPEN, CLOSE, HIGH, LOW, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "cci_bfq",
+            "description": "顺势指标又叫CCI指标-CLOSE, HIGH, LOW, N=14",
+            "type": "number"
+          },
+          {
+            "name": "cr_bfq",
+            "description": "CR价格动量指标-CLOSE, HIGH, LOW, N=20",
+            "type": "number"
+          },
+          {
+            "name": "dfma_dif_bfq",
+            "description": "平行线差指标-CLOSE, N1=10, N2=50, M=10",
+            "type": "number"
+          },
+          {
+            "name": "dfma_difma_bfq",
+            "description": "平行线差指标-CLOSE, N1=10, N2=50, M=10",
+            "type": "number"
+          },
+          {
+            "name": "dmi_adx_bfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_adxr_bfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_mdi_bfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_pdi_bfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "downdays",
+            "description": "连跌天数",
+            "type": "number"
+          },
+          {
+            "name": "updays",
+            "description": "连涨天数",
+            "type": "number"
+          },
+          {
+            "name": "dpo_bfq",
+            "description": "区间震荡线-CLOSE, M1=20, M2=10, M3=6",
+            "type": "number"
+          },
+          {
+            "name": "madpo_bfq",
+            "description": "区间震荡线-CLOSE, M1=20, M2=10, M3=6",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_10",
+            "description": "指数移动平均-N=10",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_20",
+            "description": "指数移动平均-N=20",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_250",
+            "description": "指数移动平均-N=250",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_30",
+            "description": "指数移动平均-N=30",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_5",
+            "description": "指数移动平均-N=5",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_60",
+            "description": "指数移动平均-N=60",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_90",
+            "description": "指数移动平均-N=90",
+            "type": "number"
+          },
+          {
+            "name": "emv_bfq",
+            "description": "简易波动指标-HIGH, LOW, VOL, N=14, M=9",
+            "type": "number"
+          },
+          {
+            "name": "maemv_bfq",
+            "description": "简易波动指标-HIGH, LOW, VOL, N=14, M=9",
+            "type": "number"
+          },
+          {
+            "name": "expma_12_bfq",
+            "description": "EMA指数平均数指标-CLOSE, N1=12, N2=50",
+            "type": "number"
+          },
+          {
+            "name": "expma_50_bfq",
+            "description": "EMA指数平均数指标-CLOSE, N1=12, N2=50",
+            "type": "number"
+          },
+          {
+            "name": "kdj_bfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "kdj_d_bfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "kdj_k_bfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "ktn_down_bfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "ktn_mid_bfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "ktn_upper_bfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "lowdays",
+            "description": "LOWRANGE(LOW)表示当前最低价是近多少周期内最低价的最小值",
+            "type": "number"
+          },
+          {
+            "name": "topdays",
+            "description": "TOPRANGE(HIGH)表示当前最高价是近多少周期内最高价的最大值",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_10",
+            "description": "简单移动平均-N=10",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_20",
+            "description": "简单移动平均-N=20",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_250",
+            "description": "简单移动平均-N=250",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_30",
+            "description": "简单移动平均-N=30",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_5",
+            "description": "简单移动平均-N=5",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_60",
+            "description": "简单移动平均-N=60",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_90",
+            "description": "简单移动平均-N=90",
+            "type": "number"
+          },
+          {
+            "name": "macd_bfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "macd_dea_bfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "macd_dif_bfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "mass_bfq",
+            "description": "梅斯线-HIGH, LOW, N1=9, N2=25, M=6",
+            "type": "number"
+          },
+          {
+            "name": "ma_mass_bfq",
+            "description": "梅斯线-HIGH, LOW, N1=9, N2=25, M=6",
+            "type": "number"
+          },
+          {
+            "name": "mfi_bfq",
+            "description": "MFI指标是成交量的RSI指标-CLOSE, HIGH, LOW, VOL, N=14",
+            "type": "number"
+          },
+          {
+            "name": "mtm_bfq",
+            "description": "动量指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "mtmma_bfq",
+            "description": "动量指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "obv_bfq",
+            "description": "能量潮指标-CLOSE, VOL",
+            "type": "number"
+          },
+          {
+            "name": "psy_bfq",
+            "description": "投资者对股市涨跌产生心理波动的情绪指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "psyma_bfq",
+            "description": "投资者对股市涨跌产生心理波动的情绪指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "roc_bfq",
+            "description": "变动率指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "maroc_bfq",
+            "description": "变动率指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "rsi_bfq_12",
+            "description": "RSI指标-CLOSE, N=12",
+            "type": "number"
+          },
+          {
+            "name": "rsi_bfq_24",
+            "description": "RSI指标-CLOSE, N=24",
+            "type": "number"
+          },
+          {
+            "name": "rsi_bfq_6",
+            "description": "RSI指标-CLOSE, N=6",
+            "type": "number"
+          },
+          {
+            "name": "taq_down_bfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "taq_mid_bfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "taq_up_bfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "trix_bfq",
+            "description": "三重指数平滑平均线-CLOSE, M1=12, M2=20",
+            "type": "number"
+          },
+          {
+            "name": "trma_bfq",
+            "description": "三重指数平滑平均线-CLOSE, M1=12, M2=20",
+            "type": "number"
+          },
+          {
+            "name": "vr_bfq",
+            "description": "VR容量比率-CLOSE, VOL, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "wr_bfq",
+            "description": "W&R 威廉指标-CLOSE, HIGH, LOW, N=10, N1=6",
+            "type": "number"
+          },
+          {
+            "name": "wr1_bfq",
+            "description": "W&R 威廉指标-CLOSE, HIGH, LOW, N=10, N1=6",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td1_bfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td2_bfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td3_bfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td4_bfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          }
+        ]
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "daily_info": {
       "name": "daily_info",
@@ -12809,7 +15626,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 600,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "sz_daily_info": {
       "name": "sz_daily_info",
@@ -12889,7 +15711,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fund_basic": {
       "name": "fund_basic",
@@ -13044,7 +15871,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fund_company": {
       "name": "fund_company",
@@ -13224,7 +16056,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 1500,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fund_manager": {
       "name": "fund_manager",
@@ -13313,7 +16150,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 500,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fund_share": {
       "name": "fund_share",
@@ -13366,7 +16208,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fund_nav": {
       "name": "fund_nav",
@@ -13449,7 +16296,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fund_div": {
       "name": "fund_div",
@@ -13563,7 +16415,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 400,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fund_portfolio": {
       "name": "fund_portfolio",
@@ -13645,7 +16502,502 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
+    },
+    "fund_factor_pro": {
+      "name": "fund_factor_pro",
+      "title": "场内基金技术因子(专业版)",
+      "description": "接口：fund_factor_pro 描述：获取场内基金每日技术面因子数据，用于跟踪场内基金当前走势情况，数据由Tushare社区自产，覆盖全历史；输出参数_bfq表示不复权，描述中说明了因子的默认传参，如需要特殊参数或者更多因子可以联系管理员评估 限量：单次最大8000 积分：5000积分每分钟可以请求30次，8000积分以上每分钟500次",
+      "url": "https://tushare.pro/document/2?doc_id=359",
+      "doc_id": "359",
+      "input": {
+        "type": "object",
+        "properties": {
+          "ts_code": {
+            "type": "string",
+            "description": "基金代码"
+          },
+          "start_date": {
+            "type": "string",
+            "description": "开始日期"
+          },
+          "end_date": {
+            "type": "string",
+            "description": "结束日期"
+          },
+          "trade_date": {
+            "type": "string",
+            "description": "交易日期"
+          }
+        },
+        "required": []
+      },
+      "output": {
+        "type": "array",
+        "fields": [
+          {
+            "name": "ts_code",
+            "description": "基金代码",
+            "type": "string"
+          },
+          {
+            "name": "trade_date",
+            "description": "交易日期",
+            "type": "string"
+          },
+          {
+            "name": "trade_date_doris",
+            "description": "日期",
+            "type": "string",
+            "ts_type": "none"
+          },
+          {
+            "name": "open",
+            "description": "开盘价",
+            "type": "number"
+          },
+          {
+            "name": "high",
+            "description": "最高价",
+            "type": "number"
+          },
+          {
+            "name": "low",
+            "description": "最低价",
+            "type": "number"
+          },
+          {
+            "name": "close",
+            "description": "收盘价",
+            "type": "number"
+          },
+          {
+            "name": "pre_close",
+            "description": "昨收价",
+            "type": "number"
+          },
+          {
+            "name": "change",
+            "description": "涨跌额",
+            "type": "number"
+          },
+          {
+            "name": "pct_change",
+            "description": "涨跌幅 （未复权，如果是复权请用 通用行情接口 ）",
+            "type": "number"
+          },
+          {
+            "name": "vol",
+            "description": "成交量 （手）",
+            "type": "number"
+          },
+          {
+            "name": "amount",
+            "description": "成交额 （千元）",
+            "type": "number"
+          },
+          {
+            "name": "asi_bfq",
+            "description": "振动升降指标-OPEN, CLOSE, HIGH, LOW, M1=26, M2=10",
+            "type": "number"
+          },
+          {
+            "name": "asit_bfq",
+            "description": "振动升降指标-OPEN, CLOSE, HIGH, LOW, M1=26, M2=10",
+            "type": "number"
+          },
+          {
+            "name": "atr_bfq",
+            "description": "真实波动N日平均值-CLOSE, HIGH, LOW, N=20",
+            "type": "number"
+          },
+          {
+            "name": "bbi_bfq",
+            "description": "BBI多空指标-CLOSE, M1=3, M2=6, M3=12, M4=20",
+            "type": "number"
+          },
+          {
+            "name": "bias1_bfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "bias2_bfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "bias3_bfq",
+            "description": "BIAS乖离率-CLOSE, L1=6, L2=12, L3=24",
+            "type": "number"
+          },
+          {
+            "name": "boll_lower_bfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "boll_mid_bfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "boll_upper_bfq",
+            "description": "BOLL指标，布林带-CLOSE, N=20, P=2",
+            "type": "number"
+          },
+          {
+            "name": "brar_ar_bfq",
+            "description": "BRAR情绪指标-OPEN, CLOSE, HIGH, LOW, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "brar_br_bfq",
+            "description": "BRAR情绪指标-OPEN, CLOSE, HIGH, LOW, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "cci_bfq",
+            "description": "顺势指标又叫CCI指标-CLOSE, HIGH, LOW, N=14",
+            "type": "number"
+          },
+          {
+            "name": "cr_bfq",
+            "description": "CR价格动量指标-CLOSE, HIGH, LOW, N=20",
+            "type": "number"
+          },
+          {
+            "name": "dfma_dif_bfq",
+            "description": "平行线差指标-CLOSE, N1=10, N2=50, M=10",
+            "type": "number"
+          },
+          {
+            "name": "dfma_difma_bfq",
+            "description": "平行线差指标-CLOSE, N1=10, N2=50, M=10",
+            "type": "number"
+          },
+          {
+            "name": "dmi_adx_bfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_adxr_bfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_mdi_bfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "dmi_pdi_bfq",
+            "description": "动向指标-CLOSE, HIGH, LOW, M1=14, M2=6",
+            "type": "number"
+          },
+          {
+            "name": "downdays",
+            "description": "连跌天数",
+            "type": "number"
+          },
+          {
+            "name": "updays",
+            "description": "连涨天数",
+            "type": "number"
+          },
+          {
+            "name": "dpo_bfq",
+            "description": "区间震荡线-CLOSE, M1=20, M2=10, M3=6",
+            "type": "number"
+          },
+          {
+            "name": "madpo_bfq",
+            "description": "区间震荡线-CLOSE, M1=20, M2=10, M3=6",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_10",
+            "description": "指数移动平均-N=10",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_20",
+            "description": "指数移动平均-N=20",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_250",
+            "description": "指数移动平均-N=250",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_30",
+            "description": "指数移动平均-N=30",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_5",
+            "description": "指数移动平均-N=5",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_60",
+            "description": "指数移动平均-N=60",
+            "type": "number"
+          },
+          {
+            "name": "ema_bfq_90",
+            "description": "指数移动平均-N=90",
+            "type": "number"
+          },
+          {
+            "name": "emv_bfq",
+            "description": "简易波动指标-HIGH, LOW, VOL, N=14, M=9",
+            "type": "number"
+          },
+          {
+            "name": "maemv_bfq",
+            "description": "简易波动指标-HIGH, LOW, VOL, N=14, M=9",
+            "type": "number"
+          },
+          {
+            "name": "expma_12_bfq",
+            "description": "EMA指数平均数指标-CLOSE, N1=12, N2=50",
+            "type": "number"
+          },
+          {
+            "name": "expma_50_bfq",
+            "description": "EMA指数平均数指标-CLOSE, N1=12, N2=50",
+            "type": "number"
+          },
+          {
+            "name": "kdj_bfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "kdj_d_bfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "kdj_k_bfq",
+            "description": "KDJ指标-CLOSE, HIGH, LOW, N=9, M1=3, M2=3",
+            "type": "number"
+          },
+          {
+            "name": "ktn_down_bfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "ktn_mid_bfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "ktn_upper_bfq",
+            "description": "肯特纳交易通道, N选20日，ATR选10日-CLOSE, HIGH, LOW, N=20, M=10",
+            "type": "number"
+          },
+          {
+            "name": "lowdays",
+            "description": "LOWRANGE(LOW)表示当前最低价是近多少周期内最低价的最小值",
+            "type": "number"
+          },
+          {
+            "name": "topdays",
+            "description": "TOPRANGE(HIGH)表示当前最高价是近多少周期内最高价的最大值",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_10",
+            "description": "简单移动平均-N=10",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_20",
+            "description": "简单移动平均-N=20",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_250",
+            "description": "简单移动平均-N=250",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_30",
+            "description": "简单移动平均-N=30",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_5",
+            "description": "简单移动平均-N=5",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_60",
+            "description": "简单移动平均-N=60",
+            "type": "number"
+          },
+          {
+            "name": "ma_bfq_90",
+            "description": "简单移动平均-N=90",
+            "type": "number"
+          },
+          {
+            "name": "macd_bfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "macd_dea_bfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "macd_dif_bfq",
+            "description": "MACD指标-CLOSE, SHORT=12, LONG=26, M=9",
+            "type": "number"
+          },
+          {
+            "name": "mass_bfq",
+            "description": "梅斯线-HIGH, LOW, N1=9, N2=25, M=6",
+            "type": "number"
+          },
+          {
+            "name": "ma_mass_bfq",
+            "description": "梅斯线-HIGH, LOW, N1=9, N2=25, M=6",
+            "type": "number"
+          },
+          {
+            "name": "mfi_bfq",
+            "description": "MFI指标是成交量的RSI指标-CLOSE, HIGH, LOW, VOL, N=14",
+            "type": "number"
+          },
+          {
+            "name": "mtm_bfq",
+            "description": "动量指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "mtmma_bfq",
+            "description": "动量指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "obv_bfq",
+            "description": "能量潮指标-CLOSE, VOL",
+            "type": "number"
+          },
+          {
+            "name": "psy_bfq",
+            "description": "投资者对股市涨跌产生心理波动的情绪指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "psyma_bfq",
+            "description": "投资者对股市涨跌产生心理波动的情绪指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "roc_bfq",
+            "description": "变动率指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "maroc_bfq",
+            "description": "变动率指标-CLOSE, N=12, M=6",
+            "type": "number"
+          },
+          {
+            "name": "rsi_bfq_12",
+            "description": "RSI指标-CLOSE, N=12",
+            "type": "number"
+          },
+          {
+            "name": "rsi_bfq_24",
+            "description": "RSI指标-CLOSE, N=24",
+            "type": "number"
+          },
+          {
+            "name": "rsi_bfq_6",
+            "description": "RSI指标-CLOSE, N=6",
+            "type": "number"
+          },
+          {
+            "name": "taq_down_bfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "taq_mid_bfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "taq_up_bfq",
+            "description": "唐安奇通道(海龟)交易指标-HIGH, LOW, 20",
+            "type": "number"
+          },
+          {
+            "name": "trix_bfq",
+            "description": "三重指数平滑平均线-CLOSE, M1=12, M2=20",
+            "type": "number"
+          },
+          {
+            "name": "trma_bfq",
+            "description": "三重指数平滑平均线-CLOSE, M1=12, M2=20",
+            "type": "number"
+          },
+          {
+            "name": "vr_bfq",
+            "description": "VR容量比率-CLOSE, VOL, M1=26",
+            "type": "number"
+          },
+          {
+            "name": "wr_bfq",
+            "description": "W&R 威廉指标-CLOSE, HIGH, LOW, N=10, N1=6",
+            "type": "number"
+          },
+          {
+            "name": "wr1_bfq",
+            "description": "W&R 威廉指标-CLOSE, HIGH, LOW, N=10, N1=6",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td1_bfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td2_bfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td3_bfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          },
+          {
+            "name": "xsii_td4_bfq",
+            "description": "薛斯通道II-CLOSE, HIGH, LOW, N=102, M=7",
+            "type": "number"
+          }
+        ]
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fut_basic": {
       "name": "fut_basic",
@@ -13759,7 +17111,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fut_daily": {
       "name": "fut_daily",
@@ -13877,7 +17234,149 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
+    },
+    "fut_weekly_monthly": {
+      "name": "fut_weekly_monthly",
+      "title": "期货周/月线行情(每日更新)",
+      "description": "接口：fut_weekly_monthly 描述：期货周/月线行情(每日更新) 限量：单次最大6000",
+      "url": "https://tushare.pro/document/2?doc_id=337",
+      "doc_id": "337",
+      "input": {
+        "type": "object",
+        "properties": {
+          "ts_code": {
+            "type": "string",
+            "description": "TS代码"
+          },
+          "trade_date": {
+            "type": "string",
+            "description": "交易日期"
+          },
+          "start_date": {
+            "type": "string",
+            "description": "开始交易日期"
+          },
+          "end_date": {
+            "type": "string",
+            "description": "结束交易日期"
+          },
+          "freq": {
+            "type": "string",
+            "description": "频率week周，month月"
+          },
+          "exchange": {
+            "type": "string",
+            "description": "交易所"
+          }
+        },
+        "required": []
+      },
+      "output": {
+        "type": "array",
+        "fields": [
+          {
+            "name": "ts_code",
+            "description": "期货代码",
+            "type": "string"
+          },
+          {
+            "name": "trade_date",
+            "description": "交易日期（每周五或者月末日期）",
+            "type": "string"
+          },
+          {
+            "name": "end_date",
+            "description": "计算截至日期",
+            "type": "string"
+          },
+          {
+            "name": "freq",
+            "description": "频率(周week,月month)",
+            "type": "string"
+          },
+          {
+            "name": "open",
+            "description": "(周/月)开盘价",
+            "type": "number"
+          },
+          {
+            "name": "high",
+            "description": "(周/月)最高价",
+            "type": "number"
+          },
+          {
+            "name": "low",
+            "description": "(周/月)最低价",
+            "type": "number"
+          },
+          {
+            "name": "close",
+            "description": "(周/月)收盘价",
+            "type": "number"
+          },
+          {
+            "name": "pre_close",
+            "description": "前一(周/月)收盘价",
+            "type": "number"
+          },
+          {
+            "name": "settle",
+            "description": "(周/月)结算价",
+            "type": "number"
+          },
+          {
+            "name": "pre_settle",
+            "description": "前一(周/月)结算价",
+            "type": "number"
+          },
+          {
+            "name": "vol",
+            "description": "(周/月)成交量(手)",
+            "type": "number"
+          },
+          {
+            "name": "amount",
+            "description": "(周/月)成交金额(万元)",
+            "type": "number"
+          },
+          {
+            "name": "oi",
+            "description": "(周/月)持仓量(手)",
+            "type": "number"
+          },
+          {
+            "name": "oi_chg",
+            "description": "(周/月)持仓量变化",
+            "type": "number"
+          },
+          {
+            "name": "exchange",
+            "description": "交易所",
+            "type": "string"
+          },
+          {
+            "name": "change1",
+            "description": "(周/月)涨跌1 收盘价-昨结算价",
+            "type": "number"
+          },
+          {
+            "name": "change2",
+            "description": "(周/月)涨跌2 结算价-昨结算价",
+            "type": "number"
+          }
+        ]
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "ft_mins": {
       "name": "ft_mins",
@@ -13958,7 +17457,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "rt_fut_min": {
       "name": "rt_fut_min",
@@ -14034,7 +17538,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "fut_wsr": {
       "name": "fut_wsr",
@@ -14157,7 +17666,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fut_settle": {
       "name": "fut_settle",
@@ -14255,7 +17769,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fut_holding": {
       "name": "fut_holding",
@@ -14343,7 +17862,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fut_mapping": {
       "name": "fut_mapping",
@@ -14392,7 +17916,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fut_weekly_detail": {
       "name": "fut_weekly_detail",
@@ -14519,7 +18048,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 600,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "ft_limit": {
       "name": "ft_limit",
@@ -14601,7 +18135,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "sge_basic": {
       "name": "sge_basic",
@@ -14693,7 +18232,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "sge_daily": {
       "name": "sge_daily",
@@ -14797,7 +18341,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "opt_basic": {
       "name": "opt_basic",
@@ -14925,7 +18474,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "opt_daily": {
       "name": "opt_daily",
@@ -15028,7 +18582,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "opt_mins": {
       "name": "opt_mins",
@@ -15109,7 +18668,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cb_basic": {
       "name": "cb_basic",
@@ -15319,7 +18883,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cb_issue": {
       "name": "cb_issue",
@@ -15528,7 +19097,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cb_call": {
       "name": "cb_call",
@@ -15617,7 +19191,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cb_rate": {
       "name": "cb_rate",
@@ -15664,7 +19243,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cb_daily": {
       "name": "cb_daily",
@@ -15773,7 +19357,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cb_factor_pro": {
       "name": "cb_factor_pro",
@@ -16252,7 +19841,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cb_price_chg": {
       "name": "cb_price_chg",
@@ -16309,7 +19903,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "cb_share": {
       "name": "cb_share",
@@ -16418,7 +20017,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "repo_daily": {
       "name": "repo_daily",
@@ -16512,7 +20116,12 @@
             "type": "integer"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "bc_otcqt": {
       "name": "bc_otcqt",
@@ -16615,7 +20224,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 500,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "bc_bestotcqt": {
       "name": "bc_bestotcqt",
@@ -16704,7 +20318,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 500,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "bond_blk": {
       "name": "bond_blk",
@@ -16768,7 +20387,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "bond_blk_detail": {
       "name": "bond_blk_detail",
@@ -16842,7 +20466,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 5000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "yc_cb": {
       "name": "yc_cb",
@@ -16914,7 +20543,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "eco_cal": {
       "name": "eco_cal",
@@ -16996,7 +20630,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fx_obasic": {
       "name": "fx_obasic",
@@ -17086,7 +20725,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fx_daily": {
       "name": "fx_daily",
@@ -17184,7 +20828,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "hk_basic": {
       "name": "hk_basic",
@@ -17270,7 +20919,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "hk_tradecal": {
       "name": "hk_tradecal",
@@ -17315,7 +20969,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "hk_daily": {
       "name": "hk_daily",
@@ -17404,7 +21063,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "hk_daily_adj": {
       "name": "hk_daily_adj",
@@ -17531,7 +21195,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "hk_adjfactor": {
       "name": "hk_adjfactor",
@@ -17585,7 +21254,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "hk_mins": {
       "name": "hk_mins",
@@ -17661,7 +21335,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "rt_hk_k": {
       "name": "rt_hk_k",
@@ -17723,7 +21402,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "hk_income": {
       "name": "hk_income",
@@ -17786,7 +21470,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 15000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "hk_balancesheet": {
       "name": "hk_balancesheet",
@@ -17849,7 +21538,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 15000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "hk_cashflow": {
       "name": "hk_cashflow",
@@ -17912,7 +21606,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 15000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "hk_fina_indicator": {
       "name": "hk_fina_indicator",
@@ -18385,7 +22084,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 15000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "us_basic": {
       "name": "us_basic",
@@ -18449,7 +22153,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "us_tradecal": {
       "name": "us_tradecal",
@@ -18494,7 +22203,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "us_daily": {
       "name": "us_daily",
@@ -18608,7 +22322,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "us_daily_adj": {
       "name": "us_daily_adj",
@@ -18749,7 +22468,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "us_adjfactor": {
       "name": "us_adjfactor",
@@ -18808,7 +22532,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "us_income": {
       "name": "us_income",
@@ -18885,7 +22614,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 15000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "us_balancesheet": {
       "name": "us_balancesheet",
@@ -18962,7 +22696,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 15000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "us_cashflow": {
       "name": "us_cashflow",
@@ -19039,7 +22778,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 15000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "us_fina_indicator": {
       "name": "us_fina_indicator",
@@ -19422,7 +23166,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 15000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "tmt_twincome": {
       "name": "tmt_twincome",
@@ -19471,7 +23220,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "tmt_twincomedetail": {
       "name": "tmt_twincomedetail",
@@ -19538,7 +23292,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "bo_monthly": {
       "name": "bo_monthly",
@@ -19610,7 +23369,12 @@
             "type": "integer"
           }
         ]
-      }
+      },
+      "min_points": 500,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "bo_weekly": {
       "name": "bo_weekly",
@@ -19682,7 +23446,12 @@
             "type": "integer"
           }
         ]
-      }
+      },
+      "min_points": 500,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "bo_daily": {
       "name": "bo_daily",
@@ -19754,7 +23523,12 @@
             "type": "integer"
           }
         ]
-      }
+      },
+      "min_points": 500,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "bo_cinema": {
       "name": "bo_cinema",
@@ -19821,7 +23595,12 @@
             "type": "integer"
           }
         ]
-      }
+      },
+      "min_points": 500,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "film_record": {
       "name": "film_record",
@@ -19896,7 +23675,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "teleplay_record": {
       "name": "teleplay_record",
@@ -19999,7 +23783,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "shibor": {
       "name": "shibor",
@@ -20074,7 +23863,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "shibor_quote": {
       "name": "shibor_quote",
@@ -20198,7 +23992,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "shibor_lpr": {
       "name": "shibor_lpr",
@@ -20243,7 +24042,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "libor": {
       "name": "libor",
@@ -20322,7 +24126,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "hibor": {
       "name": "hibor",
@@ -20397,7 +24206,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "wz_index": {
       "name": "wz_index",
@@ -20492,7 +24306,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "gz_index": {
       "name": "gz_index",
@@ -20557,7 +24376,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cn_gdp": {
       "name": "cn_gdp",
@@ -20636,7 +24460,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 600,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cn_cpi": {
       "name": "cn_cpi",
@@ -20731,7 +24560,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 600,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cn_ppi": {
       "name": "cn_ppi",
@@ -20916,7 +24750,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 600,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cn_m": {
       "name": "cn_m",
@@ -21000,7 +24839,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 600,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "sf_month": {
       "name": "sf_month",
@@ -21050,7 +24894,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "cn_pmi": {
       "name": "cn_pmi",
@@ -21380,7 +25229,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 2000,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "us_tycr": {
       "name": "us_tycr",
@@ -21484,7 +25338,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "us_trycr": {
       "name": "us_trycr",
@@ -21548,7 +25407,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "us_tbr": {
       "name": "us_tbr",
@@ -21647,7 +25511,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "us_tltr": {
       "name": "us_tltr",
@@ -21701,7 +25570,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "us_trltr": {
       "name": "us_trltr",
@@ -21745,7 +25619,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "npr": {
       "name": "npr",
@@ -21817,7 +25696,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "research_report": {
       "name": "research_report",
@@ -21913,7 +25797,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "news": {
       "name": "news",
@@ -21965,7 +25854,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "major_news": {
       "name": "major_news",
@@ -22015,7 +25909,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "cctv_news": {
       "name": "cctv_news",
@@ -22052,7 +25951,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "anns_d": {
       "name": "anns_d",
@@ -22117,7 +26021,12 @@
             "format": "date-time"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "irm_qa_sh": {
       "name": "irm_qa_sh",
@@ -22186,7 +26095,12 @@
             "format": "date-time"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "irm_qa_sz": {
       "name": "irm_qa_sz",
@@ -22259,7 +26173,12 @@
             "type": "string"
           }
         ]
-      }
+      },
+      "min_points": 120,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": true,
+      "permission_granted": false
     },
     "fund_sales_ratio": {
       "name": "fund_sales_ratio",
@@ -22311,7 +26230,12 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     },
     "fund_sales_vol": {
       "name": "fund_sales_vol",
@@ -22371,7 +26295,12 @@
             "type": "integer"
           }
         ]
-      }
+      },
+      "min_points": 0,
+      "max_rows": null,
+      "is_special": false,
+      "permission_required": false,
+      "permission_granted": false
     }
   }
 }

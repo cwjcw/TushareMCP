@@ -58,6 +58,15 @@ def _extract_api_name_from_code(text: str) -> str | None:
     return None
 
 
+def _extract_api_name_from_text(text: str) -> str | None:
+    if not text:
+        return None
+    m = re.search(r"接口[:：]\s*([a-zA-Z_][a-zA-Z0-9_]*)", text)
+    if m:
+        return m.group(1)
+    return None
+
+
 @dataclass(frozen=True)
 class ParsedApiDoc:
     api_name: str
@@ -67,6 +76,11 @@ class ParsedApiDoc:
     doc_id: str | None
     input_schema: dict[str, Any]
     output_schema: dict[str, Any]
+    min_points: int
+    max_rows: int | None
+    is_special: bool
+    permission_required: bool
+    permission_granted: bool
 
     def to_spec(self) -> dict[str, Any]:
         spec: dict[str, Any] = {
@@ -77,8 +91,49 @@ class ParsedApiDoc:
             "doc_id": self.doc_id,
             "input": self.input_schema,
             "output": self.output_schema,
+            "min_points": self.min_points,
+            "max_rows": self.max_rows,
+            "is_special": self.is_special,
+            "permission_required": self.permission_required,
+            "permission_granted": self.permission_granted,
         }
         return spec
+
+
+def _extract_min_points(text: str) -> int:
+    hits = [int(x) for x in re.findall(r"(\d{1,7})\s*积分", text or "")]
+    if not hits:
+        return 0
+    return min(hits)
+
+
+def _extract_max_rows(text: str) -> int | None:
+    if not text:
+        return None
+    patterns = [
+        r"(?:限量|单次最大|单次最多|单次|每次|单笔|一次|每次返回行数|每次返回|每次可请求股票数|单次可请求股票数|单次请求股票数)[^\\d]{0,20}(\\d{1,7})\\s*(?:条|行|只)",
+        r"(\\d{1,7})\\s*(?:条|行|只)[^\\n]{0,12}(?:每次|单次|返回|请求)",
+    ]
+    numbers: list[int] = []
+    for pat in patterns:
+        numbers.extend(int(x) for x in re.findall(pat, text))
+    return max(numbers) if numbers else None
+
+
+def _detect_permission_required(text: str) -> bool:
+    if not text:
+        return False
+    return any(
+        kw in text
+        for kw in [
+            "单独开权限",
+            "单独开通",
+            "需单独开通",
+            "需单独申请",
+            "权限开通",
+            "需申请权限",
+        ]
+    )
 
 
 def _parse_table(table) -> list[dict[str, str]]:
@@ -143,7 +198,7 @@ def _map_output_rows(rows: list[dict[str, str]]) -> dict[str, Any]:
     return {"type": "array", "fields": fields}
 
 
-def parse_api_doc_from_html(*, url: str, html: str) -> ParsedApiDoc | None:
+def parse_api_doc_from_html(*, url: str, html: str, is_special: bool = False) -> ParsedApiDoc | None:
     try:
         from bs4 import BeautifulSoup
     except Exception as e:  # pragma: no cover
@@ -167,6 +222,8 @@ def parse_api_doc_from_html(*, url: str, html: str) -> ParsedApiDoc | None:
             break
     if not api_name:
         api_name = _extract_api_name_from_code(text)
+    if not api_name:
+        api_name = _extract_api_name_from_text(text)
     if not api_name:
         return None
 
@@ -197,6 +254,10 @@ def parse_api_doc_from_html(*, url: str, html: str) -> ParsedApiDoc | None:
     if first_p:
         description = first_p.get_text(" ", strip=True)
 
+    min_points = _extract_min_points(text)
+    max_rows = _extract_max_rows(text)
+    permission_required = _detect_permission_required(text)
+
     return ParsedApiDoc(
         api_name=api_name,
         title=title or api_name,
@@ -205,7 +266,37 @@ def parse_api_doc_from_html(*, url: str, html: str) -> ParsedApiDoc | None:
         doc_id=_doc_id_from_url(url),
         input_schema=input_schema,
         output_schema=output_schema,
+        min_points=min_points,
+        max_rows=max_rows,
+        is_special=is_special,
+        permission_required=permission_required,
+        permission_granted=False,
     )
+
+
+def _build_special_doc_ids(base_html: str, base_url: str) -> set[str]:
+    try:
+        from bs4 import BeautifulSoup
+    except Exception:
+        return set()
+    soup = BeautifulSoup(base_html, "lxml")
+    special_ids: set[str] = set()
+    for li in soup.find_all("li"):
+        a = li.find("a", href=True)
+        if not a:
+            continue
+        if a.get_text(" ", strip=True) != "特色数据":
+            continue
+        for sub in li.find_all("a", href=True):
+            href = sub.get("href") or ""
+            if "doc_id=" not in href:
+                continue
+            full = urljoin(base_url, href)
+            doc_id = _doc_id_from_url(full)
+            if doc_id:
+                special_ids.add(doc_id)
+        break
+    return special_ids
 
 
 def scrape_tushare_docs(
@@ -256,6 +347,8 @@ def scrape_tushare_docs(
         seen.add(u)
         unique_links.append(u)
 
+    special_doc_ids = _build_special_doc_ids(base_html, base_url)
+
     if max_pages is not None:
         unique_links = unique_links[:max_pages]
 
@@ -274,7 +367,12 @@ def scrape_tushare_docs(
                     html = page.content()
                 except Exception:
                     continue
-                parsed = parse_api_doc_from_html(url=url, html=html)
+                doc_id = _doc_id_from_url(url)
+                parsed = parse_api_doc_from_html(
+                    url=url,
+                    html=html,
+                    is_special=bool(doc_id and doc_id in special_doc_ids),
+                )
                 if parsed:
                     apis[parsed.api_name] = parsed.to_spec()
                 time.sleep(max(0.0, delay_seconds))
@@ -283,6 +381,19 @@ def scrape_tushare_docs(
     else:
         # No auth: use plain HTTP fetch (much faster than headless browser).
         session = requests.Session()
+        fallback_playwright = None
+        browser = context = page = None
+        try:
+            from playwright.sync_api import sync_playwright as _sync_playwright
+        except Exception:
+            _sync_playwright = None
+
+        if _sync_playwright is not None:
+            fallback_playwright = _sync_playwright().start()
+            browser = fallback_playwright.chromium.launch(headless=True)
+            context = browser.new_context()
+            page = context.new_page()
+
         for url in unique_links:
             if url in visited:
                 continue
@@ -291,10 +402,34 @@ def scrape_tushare_docs(
                 html = session.get(url, timeout=30).text
             except Exception:
                 continue
-            parsed = parse_api_doc_from_html(url=url, html=html)
+            doc_id = _doc_id_from_url(url)
+            parsed = parse_api_doc_from_html(
+                url=url,
+                html=html,
+                is_special=bool(doc_id and doc_id in special_doc_ids),
+            )
+            if parsed is None and page is not None:
+                try:
+                    page.goto(url, wait_until="networkidle")
+                    page.wait_for_timeout(900)
+                    html = page.content()
+                    parsed = parse_api_doc_from_html(
+                        url=url,
+                        html=html,
+                        is_special=bool(doc_id and doc_id in special_doc_ids),
+                    )
+                except Exception:
+                    parsed = None
             if parsed:
                 apis[parsed.api_name] = parsed.to_spec()
             time.sleep(max(0.0, delay_seconds))
+
+        if context is not None:
+            context.close()
+        if browser is not None:
+            browser.close()
+        if fallback_playwright is not None:
+            fallback_playwright.stop()
 
     spec_doc: dict[str, Any] = {
         "meta": {"version": 1, "generated_at": _now_iso(), "base_url": base_url, "count": len(apis)},
